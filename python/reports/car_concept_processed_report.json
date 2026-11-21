@@ -1,0 +1,744 @@
+{
+  "file": {
+    "path": "assets/processed/car_concept_processed.glb",
+    "size_bytes": 11802680,
+    "declared_size_bytes": 11802680,
+    "glb_version": 2,
+    "is_valid_container": true,
+    "chunk_count": 2,
+    "chunks": [
+      {
+        "type": "JSON",
+        "length": 208872,
+        "offset": 12
+      },
+      {
+        "type": "BIN",
+        "length": 11593780,
+        "offset": 208892
+      }
+    ]
+  },
+  "scene": {
+    "scene_count": 1,
+    "active_scene": 0,
+    "total_nodes": 101,
+    "root_nodes": [
+      0
+    ],
+    "duplicate_node_names": {},
+    "mesh_count": 97
+  },
+  "geometry": {
+    "primitive_count": 109,
+    "total_vertices": 162766,
+    "total_triangles": 213347,
+    "indexed_primitives": 109,
+    "non_indexed_primitives": 0,
+    "bounding_box": {
+      "is_valid": true,
+      "min": [
+        -1.2993221282958984,
+        -2.3985517024993896,
+        -0.4876878559589386
+      ],
+      "max": [
+        1.1724309921264648,
+        2.160587787628174,
+        1.251319408416748
+      ],
+      "size": [
+        2.4717531204223633,
+        4.5591394901275635,
+        1.7390072643756866
+      ],
+      "center": [
+        -0.0634455680847168,
+        -0.11898195743560791,
+        0.3818157762289047
+      ]
+    }
+  },
+  "materials": {
+    "material_count": 29,
+    "texture_count": 15,
+    "image_count": 14,
+    "has_clearcoat": true,
+    "has_transmission": true,
+    "materials_list": [
+      {
+        "index": 0,
+        "name": "Mechanical",
+        "pbr": {
+          "base_color_factor": [
+            0.05112205445766449,
+            0.05112205445766449,
+            0.05112205445766449,
+            1.0
+          ],
+          "metallic_factor": 1.0,
+          "roughness_factor": 1.0
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 1,
+        "name": "Glass",
+        "pbr": {
+          "base_color_factor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.0
+        },
+        "has_clearcoat": false,
+        "has_transmission": true
+      },
+      {
+        "index": 2,
+        "name": "Material_2",
+        "pbr": {
+          "base_color_factor": [
+            0.002932318253442645,
+            0.002932318253442645,
+            0.002932318253442645,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.8
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 3,
+        "name": "Interior 1",
+        "pbr": {
+          "base_color_factor": [
+            0.003697239328175783,
+            0.003697239328175783,
+            0.003697239328175783,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.4
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 4,
+        "name": "Floormat",
+        "pbr": {
+          "base_color_factor": [
+            0.0012017396511510017,
+            0.0012017396511510017,
+            0.0012017396511510017,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.5
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 5,
+        "name": "Hardware",
+        "pbr": {
+          "base_color_factor": [
+            0.2715774476528168,
+            0.2715774476528168,
+            0.2715774476528168,
+            1.0
+          ],
+          "metallic_factor": 1.0,
+          "roughness_factor": 0.5
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 6,
+        "name": "Interior 3 Carmine",
+        "pbr": {
+          "base_color_factor": [
+            0.21576441824436188,
+            0.005,
+            0.0,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.4
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 7,
+        "name": "Interior 2",
+        "pbr": {
+          "base_color_factor": [
+            0.003697239328175783,
+            0.003697239328175783,
+            0.003697239328175783,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.4
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 8,
+        "name": "Dashboard",
+        "pbr": {
+          "base_color_factor": [
+            0.0012017396511510017,
+            0.0012017396511510017,
+            0.0012017396511510017,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.5
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 9,
+        "name": "License",
+        "pbr": {
+          "base_color_factor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.8
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 10,
+        "name": "Paint 2 Carmine",
+        "pbr": {
+          "base_color_factor": [
+            0.03775528281927109,
+            0.03775528281927109,
+            0.03775528281927109,
+            1.0
+          ],
+          "metallic_factor": 1.0,
+          "roughness_factor": 0.3
+        },
+        "has_clearcoat": true,
+        "has_transmission": false
+      },
+      {
+        "index": 11,
+        "name": "Paint 1 Carmine",
+        "pbr": {
+          "base_color_factor": [
+            0.666,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "metallic_factor": 1.0,
+          "roughness_factor": 0.25
+        },
+        "has_clearcoat": true,
+        "has_transmission": false
+      },
+      {
+        "index": 12,
+        "name": "Signallight",
+        "pbr": {
+          "base_color_factor": [
+            0.0012017396511510017,
+            0.0012017396511510017,
+            0.0012017396511510017,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.5
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 13,
+        "name": "Brakelight",
+        "pbr": {
+          "base_color_factor": [
+            0.0012017396511510017,
+            0.0012017396511510017,
+            0.0012017396511510017,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.5
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 14,
+        "name": "Headlight",
+        "pbr": {
+          "base_color_factor": [
+            0.0012017396511510017,
+            0.0012017396511510017,
+            0.0012017396511510017,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.5
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 15,
+        "name": "Mirror",
+        "pbr": {
+          "base_color_factor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic_factor": 1.0,
+          "roughness_factor": 0.0
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 16,
+        "name": "Brake",
+        "pbr": {
+          "base_color_factor": [
+            0.6523702144622803,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "metallic_factor": 1.0,
+          "roughness_factor": 0.2
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 17,
+        "name": "Disc",
+        "pbr": {
+          "base_color_factor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic_factor": 1.0,
+          "roughness_factor": 0.73
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 18,
+        "name": "Tireside",
+        "pbr": {
+          "base_color_factor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.4
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 19,
+        "name": "Tiretread",
+        "pbr": {
+          "base_color_factor": [
+            0.009021492674946783,
+            0.009021492674946783,
+            0.009021492674946783,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.6
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 20,
+        "name": "Rim2",
+        "pbr": {
+          "base_color_factor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallic_factor": 1.0,
+          "roughness_factor": 0.049
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 21,
+        "name": "Rim1",
+        "pbr": {
+          "base_color_factor": [
+            0.000992374261841178,
+            0.000992374261841178,
+            0.000992374261841178,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.4
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 22,
+        "name": "Paint 1 Pearl",
+        "pbr": {
+          "base_color_factor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "metallic_factor": 1.0,
+          "roughness_factor": 0.35
+        },
+        "has_clearcoat": true,
+        "has_transmission": false
+      },
+      {
+        "index": 23,
+        "name": "Paint 1 Graphite",
+        "pbr": {
+          "base_color_factor": [
+            0.15,
+            0.15,
+            0.15,
+            1.0
+          ],
+          "metallic_factor": 1.0,
+          "roughness_factor": 0.3
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 24,
+        "name": "Paint 2 Pearl",
+        "pbr": {
+          "base_color_factor": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "metallic_factor": 1.0,
+          "roughness_factor": 0.25
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 25,
+        "name": "Paint 2 Graphite",
+        "pbr": {
+          "base_color_factor": [
+            0.1,
+            0.1,
+            0.1,
+            1.0
+          ],
+          "metallic_factor": 1.0,
+          "roughness_factor": 0.2
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 26,
+        "name": "Interior 3 Pearl",
+        "pbr": {
+          "base_color_factor": [
+            0.98,
+            0.98,
+            0.98,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.4
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 27,
+        "name": "Interior 3 Graphite",
+        "pbr": {
+          "base_color_factor": [
+            0.02,
+            0.05,
+            0.1,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.4
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      },
+      {
+        "index": 28,
+        "name": "Panel Sides",
+        "pbr": {
+          "base_color_factor": [
+            0.003697239328175783,
+            0.003697239328175783,
+            0.003697239328175783,
+            1.0
+          ],
+          "metallic_factor": 0.0,
+          "roughness_factor": 0.4
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      }
+    ]
+  },
+  "vehicle_structure": {
+    "is_monolithic": false,
+    "suitability_score": 1.0,
+    "chassis_nodes": [
+      "BodyUnderside",
+      "BodyWindshieldGasket",
+      "BodyWindshieldWipers",
+      "BodyWindshieldWipersBase",
+      "BodyRoofPanel",
+      "BodyWindowsRearSides",
+      "BodyTurnsignalsRear",
+      "BodyTaillightsPanels",
+      "BodyPillars",
+      "BodyPanelsColor2",
+      "BodyHoodInterior01",
+      "BodyHoodInterior02",
+      "BodyHoodTopgrill",
+      "BodyHoodUnder",
+      "BodyDoorRColor2",
+      "BodyDoorRHandle01",
+      "BodyDoorRHandle02",
+      "BodyDoorRMirror",
+      "BodyDoorRMirrorColor1",
+      "BodyDoorRMirrorColor2",
+      "BodyDoorRWindowGasket",
+      "BodyDoorLColor2",
+      "BodyDoorLHandle01",
+      "BodyDoorLHandle02",
+      "BodyDoorLMirror",
+      "BodyDoorLMirrorColor1",
+      "BodyDoorLWindowGasket",
+      "BodyDoorLMirrorColor2"
+    ],
+    "door_fl_nodes": [
+      "Pivot_Door_FL",
+      "InteriorDoorL04",
+      "InteriorDoorL01",
+      "InteriorDoorL02",
+      "InteriorDoorL03",
+      "InteriorDoorL05",
+      "InteriorDoorL06",
+      "BodyDoorLColor2",
+      "BodyDoorLHandle01",
+      "BodyDoorLHandle02",
+      "BodyDoorLMirror",
+      "BodyDoorLMirrorColor1",
+      "BodyDoorLWindowGasket",
+      "Glass_Door_FL",
+      "BodyDoorLMirrorColor2"
+    ],
+    "door_fr_nodes": [
+      "Pivot_Door_FR",
+      "BodyDoorRColor2",
+      "BodyDoorRHandle01",
+      "BodyDoorRHandle02",
+      "BodyDoorRMirror",
+      "BodyDoorRMirrorColor1",
+      "BodyDoorRMirrorColor2",
+      "Glass_Door_FR",
+      "BodyDoorRWindowGasket",
+      "InteriorDoorR01",
+      "InteriorDoorR02",
+      "InteriorDoorR03",
+      "InteriorDoorR04",
+      "InteriorDoorR05",
+      "InteriorDoorR06",
+      "BodyDoorLMirrorColor1",
+      "BodyDoorLMirrorColor2"
+    ],
+    "door_rl_nodes": [],
+    "door_rr_nodes": [
+      "BodyDoorRMirror",
+      "BodyDoorRMirrorColor1",
+      "BodyDoorRMirrorColor2",
+      "BodyDoorLMirror",
+      "BodyDoorLMirrorColor1",
+      "BodyDoorLMirrorColor2"
+    ],
+    "bonnet_nodes": [
+      "Pivot_Bonnet",
+      "BodyHoodInterior01",
+      "BodyHoodInterior02",
+      "BodyHoodTopgrill",
+      "BodyHoodUnder"
+    ],
+    "boot_nodes": [
+      "Pivot_Boot",
+      "InteriorRearHatch",
+      "InteriorRearPanels"
+    ],
+    "wheel_nodes": [
+      "InteriorPedalBrake",
+      "InteriorPedalBrakeArm",
+      "InteriorSteeringWheel04",
+      "InteriorSteeringWheel01",
+      "InteriorSteeringWheel02",
+      "InteriorSteeringWheel03",
+      "Wheel_Assembly_FL",
+      "Mesh_Rim_FL",
+      "Mesh_Caliper_FL",
+      "WheelFrontLBrakeDisc",
+      "Wheel_Assembly_FR",
+      "Mesh_Rim_FR",
+      "Mesh_Caliper_FR",
+      "WheelFrontRBrakeDisc",
+      "Wheel_Assembly_RL",
+      "WheelRearLBrakeDisc",
+      "Mesh_Caliper_RL",
+      "Mesh_Rim_RL",
+      "Wheel_Assembly_RR",
+      "WheelRearRBrakeDisc",
+      "Mesh_Caliper_RR",
+      "Mesh_Rim_RR"
+    ],
+    "door_pivots": [
+      "Pivot_Door_FR",
+      "BodyDoorRColor2",
+      "BodyDoorRHandle01",
+      "BodyDoorRHandle02",
+      "BodyDoorRMirror",
+      "BodyDoorRMirrorColor1",
+      "BodyDoorRMirrorColor2",
+      "BodyDoorRWindowGasket",
+      "Pivot_Door_FL",
+      "BodyDoorLColor2",
+      "BodyDoorLHandle01",
+      "BodyDoorLHandle02",
+      "BodyDoorLMirror",
+      "BodyDoorLMirrorColor1",
+      "BodyDoorLWindowGasket",
+      "BodyDoorLMirrorColor2"
+    ],
+    "bonnet_pivot": "Pivot_Bonnet",
+    "boot_pivot": "Pivot_Boot",
+    "wheel_pivots": [
+      "WheelFrontLBrakeDisc",
+      "WheelFrontRBrakeDisc",
+      "WheelRearLBrakeDisc",
+      "WheelRearRBrakeDisc"
+    ]
+  },
+  "validation": {
+    "overall_status": "PASS",
+    "pass_count": 10,
+    "warning_count": 0,
+    "error_count": 0,
+    "issues": [
+      {
+        "rule_id": "GLB_CONTAINER_PASS",
+        "severity": "PASS",
+        "message": "GLB header and chunk structure are valid.",
+        "details": null
+      },
+      {
+        "rule_id": "HIERARCHY_REFS_PASS",
+        "severity": "PASS",
+        "message": "Scene graph parent-child references are consistent.",
+        "details": null
+      },
+      {
+        "rule_id": "NODE_NAMES_UNIQUE_PASS",
+        "severity": "PASS",
+        "message": "All scene node names are unique.",
+        "details": null
+      },
+      {
+        "rule_id": "GEOMETRY_ATTRIBUTES_PASS",
+        "severity": "PASS",
+        "message": "All primitives have required POSITION attributes.",
+        "details": null
+      },
+      {
+        "rule_id": "GEOMETRY_NON_EMPTY_PASS",
+        "severity": "PASS",
+        "message": "Geometry present: 162,766 vertices, 213,347 triangles across 97 meshes.",
+        "details": null
+      },
+      {
+        "rule_id": "BUDGET_TRIANGLES_PASS",
+        "severity": "PASS",
+        "message": "Triangle count (213,347) is well within budget.",
+        "details": null
+      },
+      {
+        "rule_id": "BUDGET_FILESIZE_PASS",
+        "severity": "PASS",
+        "message": "File size (11.26 MB) is within budget.",
+        "details": null
+      },
+      {
+        "rule_id": "MATERIALS_REFS_PASS",
+        "severity": "PASS",
+        "message": "Material references valid (29 materials, 15 textures).",
+        "details": null
+      },
+      {
+        "rule_id": "VEHICLE_DOOR_PIVOTS_PASS",
+        "severity": "PASS",
+        "message": "Detected door pivot nodes: Pivot_Door_FR, BodyDoorRColor2, BodyDoorRHandle01, BodyDoorRHandle02, BodyDoorRMirror, BodyDoorRMirrorColor1, BodyDoorRMirrorColor2, BodyDoorRWindowGasket, Pivot_Door_FL, BodyDoorLColor2, BodyDoorLHandle01, BodyDoorLHandle02, BodyDoorLMirror, BodyDoorLMirrorColor1, BodyDoorLWindowGasket, BodyDoorLMirrorColor2",
+        "details": null
+      },
+      {
+        "rule_id": "BOUNDS_SCALE_PASS",
+        "severity": "PASS",
+        "message": "Bounding box dimensions: X=2.47m, Y=4.56m, Z=1.74m.",
+        "details": null
+      }
+    ]
+  }
+}

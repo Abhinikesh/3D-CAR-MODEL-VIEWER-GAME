@@ -1,0 +1,4164 @@
+{
+  "asset_info": {
+    "source_path": "public/models/car.glb",
+    "file_size_bytes": 11802676,
+    "format": "glTF 2.0 Binary (GLB)",
+    "generator": "pygltflib@v1.16.5",
+    "version": "2.0"
+  },
+  "metrics": {
+    "total_nodes": 101,
+    "total_meshes": 97,
+    "total_primitives": 109,
+    "total_vertices": 162766,
+    "total_triangles": 213347,
+    "total_materials": 29,
+    "dimensions": {
+      "x_width": 2.472,
+      "y_height": 4.559,
+      "z_length": 1.739
+    }
+  },
+  "scene_graph": {
+    "active_scene": 0,
+    "root_nodes": [
+      0
+    ],
+    "duplicate_node_names": {},
+    "has_cycles": false
+  },
+  "pivots": {
+    "door_fl": "Pivot_Door_FL",
+    "door_fr": "Pivot_Door_FR",
+    "bonnet": "Pivot_Bonnet",
+    "boot": "Pivot_Boot",
+    "wheels": [
+      "Wheel_Assembly_FL",
+      "Wheel_Assembly_FR",
+      "Wheel_Assembly_RL",
+      "Wheel_Assembly_RR"
+    ]
+  },
+  "semantic_components": {
+    "chassis": {
+      "target_candidates": [
+        "BodyUnderside",
+        "BodyRoofPanel",
+        "BodyPillars",
+        "BodyPanelsColor2",
+        "License Plate"
+      ],
+      "matched_nodes": [
+        "BodyUnderside",
+        "BodyRoofPanel",
+        "BodyPillars",
+        "BodyPanelsColor2",
+        "License Plate"
+      ],
+      "resolved": true
+    },
+    "door_fl": {
+      "target_candidates": [
+        "Pivot_Door_FL",
+        "BodyDoorLColor1",
+        "BodyDoorLColor2",
+        "Glass_Door_FL"
+      ],
+      "matched_nodes": [
+        "Pivot_Door_FL",
+        "BodyDoorLColor2",
+        "Glass_Door_FL"
+      ],
+      "resolved": true
+    },
+    "door_fr": {
+      "target_candidates": [
+        "Pivot_Door_FR",
+        "BodyDoorRColor1",
+        "BodyDoorRColor2",
+        "Glass_Door_FR"
+      ],
+      "matched_nodes": [
+        "Pivot_Door_FR",
+        "BodyDoorRColor2",
+        "Glass_Door_FR"
+      ],
+      "resolved": true
+    },
+    "bonnet": {
+      "target_candidates": [
+        "Pivot_Bonnet",
+        "BodyHood",
+        "BodyHoodInterior01",
+        "BodyHoodInterior02",
+        "BodyHoodTopgrill"
+      ],
+      "matched_nodes": [
+        "Pivot_Bonnet",
+        "BodyHoodInterior01",
+        "BodyHoodInterior02",
+        "BodyHoodTopgrill"
+      ],
+      "resolved": true
+    },
+    "boot": {
+      "target_candidates": [
+        "Pivot_Boot",
+        "BodyRearPanelsColor1",
+        "InteriorRearHatch",
+        "Glass_RearWindow"
+      ],
+      "matched_nodes": [
+        "Pivot_Boot",
+        "InteriorRearHatch",
+        "Glass_RearWindow"
+      ],
+      "resolved": true
+    },
+    "wheel_fl": {
+      "target_candidates": [
+        "Wheel_Assembly_FL",
+        "Mesh_Rim_FL",
+        "Mesh_Caliper_FL",
+        "WheelFrontLBrakeDisc"
+      ],
+      "matched_nodes": [
+        "Wheel_Assembly_FL",
+        "Mesh_Rim_FL",
+        "Mesh_Caliper_FL",
+        "WheelFrontLBrakeDisc"
+      ],
+      "resolved": true
+    },
+    "wheel_fr": {
+      "target_candidates": [
+        "Wheel_Assembly_FR",
+        "Mesh_Rim_FR",
+        "Mesh_Caliper_FR",
+        "WheelFrontRBrakeDisc"
+      ],
+      "matched_nodes": [
+        "Wheel_Assembly_FR",
+        "Mesh_Rim_FR",
+        "Mesh_Caliper_FR",
+        "WheelFrontRBrakeDisc"
+      ],
+      "resolved": true
+    },
+    "wheel_rl": {
+      "target_candidates": [
+        "Wheel_Assembly_RL",
+        "Mesh_Rim_RL",
+        "Mesh_Caliper_RL",
+        "WheelRearLBrakeDisc"
+      ],
+      "matched_nodes": [
+        "Wheel_Assembly_RL",
+        "Mesh_Rim_RL",
+        "Mesh_Caliper_RL",
+        "WheelRearLBrakeDisc"
+      ],
+      "resolved": true
+    },
+    "wheel_rr": {
+      "target_candidates": [
+        "Wheel_Assembly_RR",
+        "Mesh_Rim_RR",
+        "Mesh_Caliper_RR",
+        "WheelRearRBrakeDisc"
+      ],
+      "matched_nodes": [
+        "Wheel_Assembly_RR",
+        "Mesh_Rim_RR",
+        "Mesh_Caliper_RR",
+        "WheelRearRBrakeDisc"
+      ],
+      "resolved": true
+    },
+    "glass": {
+      "target_candidates": [
+        "Glass_Windshield",
+        "Glass_Door_FL",
+        "Glass_Door_FR",
+        "Glass_RearWindow",
+        "BodyWindowsRearSides"
+      ],
+      "matched_nodes": [
+        "Glass_Windshield",
+        "Glass_Door_FL",
+        "Glass_Door_FR",
+        "Glass_RearWindow",
+        "BodyWindowsRearSides"
+      ],
+      "resolved": true
+    },
+    "mirrors": {
+      "target_candidates": [
+        "BodyDoorLMirror",
+        "BodyDoorRMirror"
+      ],
+      "matched_nodes": [
+        "BodyDoorLMirror",
+        "BodyDoorRMirror"
+      ],
+      "resolved": true
+    },
+    "headlights": {
+      "target_candidates": [
+        "Mesh_Headlight_Assemblies",
+        "BodyHeadlights"
+      ],
+      "matched_nodes": [
+        "Mesh_Headlight_Assemblies"
+      ],
+      "resolved": true
+    },
+    "taillights": {
+      "target_candidates": [
+        "Mesh_Taillight_Assemblies",
+        "BodyTurnsignalsRear",
+        "BodyTaillightsPanels"
+      ],
+      "matched_nodes": [
+        "Mesh_Taillight_Assemblies",
+        "BodyTurnsignalsRear",
+        "BodyTaillightsPanels"
+      ],
+      "resolved": true
+    }
+  },
+  "nodes": [
+    {
+      "index": 0,
+      "name": "BodyUnderside",
+      "parent": null,
+      "children": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        42,
+        43,
+        44,
+        50,
+        65,
+        80,
+        85,
+        90,
+        95,
+        100
+      ],
+      "has_mesh": true,
+      "mesh_index": 0,
+      "mesh_name": "BodyUnderside",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 1,
+      "name": "Glass_Windshield",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 1,
+      "mesh_name": "BodyWindshield",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 2,
+      "name": "BodyWindshieldGasket",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 2,
+      "mesh_name": "BodyWindshieldGasket",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 3,
+      "name": "BodyWindshieldWipers",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 3,
+      "mesh_name": "BodyWindshieldWipers",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 4,
+      "name": "BodyWindshieldWipersBase",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 4,
+      "mesh_name": "BodyWindshieldWipersBase",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 5,
+      "name": "Engine",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 5,
+      "mesh_name": "Engine",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 6,
+      "name": "InteriorCage",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 6,
+      "mesh_name": "InteriorCage",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 7,
+      "name": "InteriorDashMid",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 7,
+      "mesh_name": "InteriorDashMid",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 8,
+      "name": "InteriorDashSides",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 8,
+      "mesh_name": "InteriorDashSides",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 9,
+      "name": "InteriorFloor",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 9,
+      "mesh_name": "InteriorFloor",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 10,
+      "name": "InteriorFloormats",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 10,
+      "mesh_name": "InteriorFloormats",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 11,
+      "name": "InteriorMid",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 85,
+      "mesh_name": "",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 12,
+      "name": "InteriorPedalAccel",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 11,
+      "mesh_name": "InteriorPedalAccel",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 13,
+      "name": "InteriorPedalAccelArm",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 12,
+      "mesh_name": "InteriorPedalAccelArm",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 14,
+      "name": "InteriorPedalBrake",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 13,
+      "mesh_name": "InteriorPedalBrake",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 15,
+      "name": "InteriorPedalBrakeArm",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 14,
+      "mesh_name": "InteriorPedalBrakeArm",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 16,
+      "name": "InteriorPillar",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 15,
+      "mesh_name": "InteriorPillar",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 17,
+      "name": "InteriorSeatsColor1",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 16,
+      "mesh_name": "InteriorSeatsColor1",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 18,
+      "name": "InteriorSeatsColor2",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 17,
+      "mesh_name": "InteriorSeatsColor2",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 19,
+      "name": "InteriorSeatsFrame1",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 18,
+      "mesh_name": "InteriorSeatsFrame1",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 20,
+      "name": "InteriorSeatsFrame2",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 19,
+      "mesh_name": "InteriorSeatsFrame2",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 21,
+      "name": "InteriorSteeringBase",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 20,
+      "mesh_name": "InteriorSteeringBase",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 22,
+      "name": "InteriorSteeringCylinder",
+      "parent": 0,
+      "children": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "has_mesh": true,
+      "mesh_index": 21,
+      "mesh_name": "InteriorSteeringCylinder",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 23,
+      "name": "InteriorSteeringEmblem",
+      "parent": 22,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 22,
+      "mesh_name": "InteriorSteeringEmblem",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 24,
+      "name": "InteriorSteeringWheel04",
+      "parent": 22,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 23,
+      "mesh_name": "InteriorSteeringWheel04",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 25,
+      "name": "InteriorSteeringWheel01",
+      "parent": 22,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 24,
+      "mesh_name": "InteriorSteeringWheel01",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 26,
+      "name": "InteriorSteeringWheel02",
+      "parent": 22,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 25,
+      "mesh_name": "InteriorSteeringWheel02",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 27,
+      "name": "InteriorSteeringWheel03",
+      "parent": 22,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 26,
+      "mesh_name": "InteriorSteeringWheel03",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 28,
+      "name": "InteriorSteeringDash",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 27,
+      "mesh_name": "InteriorSteeringDash",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 29,
+      "name": "InteriorSteeringDashColumn",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 28,
+      "mesh_name": "InteriorSteeringDashColumn",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 30,
+      "name": "InteriorSteeringHandleL",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 29,
+      "mesh_name": "InteriorSteeringHandleL",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 31,
+      "name": "InteriorSteeringHandleR",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 30,
+      "mesh_name": "InteriorSteeringHandleR",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 32,
+      "name": "License Plate",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 31,
+      "mesh_name": "License Plate",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 33,
+      "name": "BodyRoofPanel",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 32,
+      "mesh_name": "BodyRoofPanel",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 34,
+      "name": "Pivot_Boot",
+      "parent": 0,
+      "children": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "has_mesh": true,
+      "mesh_index": 33,
+      "mesh_name": "BodyRearPanelsColor1",
+      "translation": [
+        0.0,
+        1.9285271167755127,
+        0.4230137765407562
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "has_matrix": false
+    },
+    {
+      "index": 35,
+      "name": "InteriorRearHatch",
+      "parent": 34,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 34,
+      "mesh_name": "InteriorRearHatch",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 36,
+      "name": "InteriorRearPanels",
+      "parent": 34,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 86,
+      "mesh_name": "",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 37,
+      "name": "BodyWindowsRearSides",
+      "parent": 34,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 35,
+      "mesh_name": "BodyWindowsRearSides",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 38,
+      "name": "BodyTurnsignalsRear",
+      "parent": 34,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 36,
+      "mesh_name": "BodyTurnsignalsRear",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 39,
+      "name": "BodyTaillightsPanels",
+      "parent": 34,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 37,
+      "mesh_name": "BodyTaillightsPanels",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 40,
+      "name": "Mesh_Taillight_Assemblies",
+      "parent": 34,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 38,
+      "mesh_name": "BodyTaillights",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 41,
+      "name": "Glass_RearWindow",
+      "parent": 34,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 39,
+      "mesh_name": "BodyRearwindow",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 42,
+      "name": "BodyPillars",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 40,
+      "mesh_name": "BodyPillars",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 43,
+      "name": "BodyPanelsColor2",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 41,
+      "mesh_name": "BodyPanelsColor2",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 44,
+      "name": "Pivot_Bonnet",
+      "parent": 0,
+      "children": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "has_mesh": true,
+      "mesh_index": 42,
+      "mesh_name": "BodyHood",
+      "translation": [
+        -1.0882532652800592e-09,
+        -2.3793885707855225,
+        0.17601461708545685
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "has_matrix": false
+    },
+    {
+      "index": 45,
+      "name": "BodyHoodInterior01",
+      "parent": 44,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 43,
+      "mesh_name": "BodyHoodInterior01",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 46,
+      "name": "BodyHoodInterior02",
+      "parent": 44,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 44,
+      "mesh_name": "BodyHoodInterior02",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 47,
+      "name": "BodyHoodTopgrill",
+      "parent": 44,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 45,
+      "mesh_name": "BodyHoodTopgrill",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 48,
+      "name": "BodyHoodUnder",
+      "parent": 44,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 46,
+      "mesh_name": "BodyHoodUnder",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 49,
+      "name": "Mesh_Headlight_Assemblies",
+      "parent": 44,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 47,
+      "mesh_name": "BodyHeadlights",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 50,
+      "name": "Pivot_Door_FR",
+      "parent": 0,
+      "children": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "has_mesh": true,
+      "mesh_index": 48,
+      "mesh_name": "BodyDoorRColor1",
+      "translation": [
+        -1.0871999263763428,
+        -0.997542679309845,
+        0.6429661512374878
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "has_matrix": false
+    },
+    {
+      "index": 51,
+      "name": "BodyDoorRColor2",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 49,
+      "mesh_name": "BodyDoorRColor2",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 52,
+      "name": "BodyDoorRHandle01",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 50,
+      "mesh_name": "BodyDoorRHandle01",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 53,
+      "name": "BodyDoorRHandle02",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 51,
+      "mesh_name": "BodyDoorRHandle02",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 54,
+      "name": "BodyDoorRMirror",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 52,
+      "mesh_name": "BodyDoorRMirror",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 55,
+      "name": "BodyDoorRMirrorColor1",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 53,
+      "mesh_name": "BodyDoorRMirrorColor1",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 56,
+      "name": "BodyDoorRMirrorColor2",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 54,
+      "mesh_name": "BodyDoorRMirrorColor2",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 57,
+      "name": "Glass_Door_FR",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 55,
+      "mesh_name": "BodyDoorRWindow",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 58,
+      "name": "BodyDoorRWindowGasket",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 56,
+      "mesh_name": "BodyDoorRWindowGasket",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 59,
+      "name": "InteriorDoorR01",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 87,
+      "mesh_name": "",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 60,
+      "name": "InteriorDoorR02",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 57,
+      "mesh_name": "InteriorDoorR02",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 61,
+      "name": "InteriorDoorR03",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 58,
+      "mesh_name": "InteriorDoorR03",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 62,
+      "name": "InteriorDoorR04",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 59,
+      "mesh_name": "InteriorDoorR04",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 63,
+      "name": "InteriorDoorR05",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 60,
+      "mesh_name": "InteriorDoorR05",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 64,
+      "name": "InteriorDoorR06",
+      "parent": 50,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 61,
+      "mesh_name": "InteriorDoorR06",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 65,
+      "name": "Pivot_Door_FL",
+      "parent": 0,
+      "children": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "has_mesh": true,
+      "mesh_index": 62,
+      "mesh_name": "BodyDoorLColor1",
+      "translation": [
+        1.0886822938919067,
+        -0.9975706934928894,
+        0.6430185437202454
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "has_matrix": false
+    },
+    {
+      "index": 66,
+      "name": "InteriorDoorL04",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 63,
+      "mesh_name": "InteriorDoorL04",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 67,
+      "name": "InteriorDoorL01",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 88,
+      "mesh_name": "",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 68,
+      "name": "InteriorDoorL02",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 64,
+      "mesh_name": "InteriorDoorL02",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 69,
+      "name": "InteriorDoorL03",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 65,
+      "mesh_name": "InteriorDoorL03",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 70,
+      "name": "InteriorDoorL05",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 66,
+      "mesh_name": "InteriorDoorL05",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 71,
+      "name": "InteriorDoorL06",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 67,
+      "mesh_name": "InteriorDoorL06",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 72,
+      "name": "BodyDoorLColor2",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 68,
+      "mesh_name": "BodyDoorLColor2",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 73,
+      "name": "BodyDoorLHandle01",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 69,
+      "mesh_name": "BodyDoorLHandle01",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 74,
+      "name": "BodyDoorLHandle02",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 70,
+      "mesh_name": "BodyDoorLHandle02",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 75,
+      "name": "BodyDoorLMirror",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 71,
+      "mesh_name": "BodyDoorLMirror",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 76,
+      "name": "BodyDoorLMirrorColor1",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 72,
+      "mesh_name": "BodyDoorLMirrorColor1",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 77,
+      "name": "BodyDoorLWindowGasket",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 73,
+      "mesh_name": "BodyDoorLWindowGasket",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 78,
+      "name": "Glass_Door_FL",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 74,
+      "mesh_name": "BodyDoorLWindow",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 79,
+      "name": "BodyDoorLMirrorColor2",
+      "parent": 65,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 75,
+      "mesh_name": "BodyDoorLMirrorColor2",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 80,
+      "name": "Wheel_Assembly_FL",
+      "parent": 0,
+      "children": [
+        81,
+        82,
+        83,
+        84
+      ],
+      "has_mesh": false,
+      "mesh_index": null,
+      "mesh_name": null,
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 81,
+      "name": "Mesh_Rim_FL",
+      "parent": 80,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 90,
+      "mesh_name": "",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 82,
+      "name": "Mesh_Caliper_FL",
+      "parent": 80,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 76,
+      "mesh_name": "WheelFrontLBrakePad",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 83,
+      "name": "WheelFrontLBrakeDisc",
+      "parent": 80,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 77,
+      "mesh_name": "WheelFrontLBrakeDisc",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 84,
+      "name": "node_84",
+      "parent": 80,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 89,
+      "mesh_name": "",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 85,
+      "name": "Wheel_Assembly_FR",
+      "parent": 0,
+      "children": [
+        86,
+        87,
+        88,
+        89
+      ],
+      "has_mesh": false,
+      "mesh_index": null,
+      "mesh_name": null,
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 86,
+      "name": "Mesh_Rim_FR",
+      "parent": 85,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 92,
+      "mesh_name": "",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 87,
+      "name": "Mesh_Caliper_FR",
+      "parent": 85,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 78,
+      "mesh_name": "WheelFrontRBrakePad",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 88,
+      "name": "WheelFrontRBrakeDisc",
+      "parent": 85,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 79,
+      "mesh_name": "WheelFrontRBrakeDisc",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 89,
+      "name": "node_89",
+      "parent": 85,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 91,
+      "mesh_name": "",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 90,
+      "name": "Wheel_Assembly_RL",
+      "parent": 0,
+      "children": [
+        91,
+        92,
+        93,
+        94
+      ],
+      "has_mesh": false,
+      "mesh_index": null,
+      "mesh_name": null,
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 91,
+      "name": "WheelRearLBrakeDisc",
+      "parent": 90,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 80,
+      "mesh_name": "WheelRearLBrakeDisc",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 92,
+      "name": "Mesh_Caliper_RL",
+      "parent": 90,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 81,
+      "mesh_name": "WheelRearLBrakePad",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 93,
+      "name": "Mesh_Rim_RL",
+      "parent": 90,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 94,
+      "mesh_name": "",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 94,
+      "name": "node_94",
+      "parent": 90,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 93,
+      "mesh_name": "",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 95,
+      "name": "Wheel_Assembly_RR",
+      "parent": 0,
+      "children": [
+        96,
+        97,
+        98,
+        99
+      ],
+      "has_mesh": false,
+      "mesh_index": null,
+      "mesh_name": null,
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 96,
+      "name": "WheelRearRBrakeDisc",
+      "parent": 95,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 82,
+      "mesh_name": "WheelRearRBrakeDisc",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 97,
+      "name": "Mesh_Caliper_RR",
+      "parent": 95,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 83,
+      "mesh_name": "WheelRearRBrakePad",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 98,
+      "name": "Mesh_Rim_RR",
+      "parent": 95,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 96,
+      "mesh_name": "",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    },
+    {
+      "index": 99,
+      "name": "node_99",
+      "parent": 95,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 95,
+      "mesh_name": "",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": false
+    },
+    {
+      "index": 100,
+      "name": "Axles",
+      "parent": 0,
+      "children": [],
+      "has_mesh": true,
+      "mesh_index": 84,
+      "mesh_name": "Axles",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "has_matrix": true
+    }
+  ],
+  "meshes": [
+    {
+      "index": 0,
+      "name": "BodyUnderside",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 0,
+          "material_name": "Mechanical",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "BodyWindshield",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 1,
+          "material_name": "Glass",
+          "attributes": [
+            "POSITION",
+            "NORMAL"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "BodyWindshieldGasket",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "BodyWindshieldWipers",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "BodyWindshieldWipersBase",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Engine",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 0,
+          "material_name": "Mechanical",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "InteriorCage",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "InteriorDashMid",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 3,
+          "material_name": "Interior 1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "InteriorDashSides",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 6,
+          "material_name": "Interior 3 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "name": "InteriorFloor",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "name": "InteriorFloormats",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 4,
+          "material_name": "Floormat",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "name": "InteriorPedalAccel",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 4,
+          "material_name": "Floormat",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "name": "InteriorPedalAccelArm",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 5,
+          "material_name": "Hardware",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "name": "InteriorPedalBrake",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 4,
+          "material_name": "Floormat",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "name": "InteriorPedalBrakeArm",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 5,
+          "material_name": "Hardware",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "name": "InteriorPillar",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "name": "InteriorSeatsColor1",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 6,
+          "material_name": "Interior 3 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "name": "InteriorSeatsColor2",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 7,
+          "material_name": "Interior 2",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "name": "InteriorSeatsFrame1",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "name": "InteriorSeatsFrame2",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "name": "InteriorSteeringBase",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "name": "InteriorSteeringCylinder",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "name": "InteriorSteeringEmblem",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 5,
+          "material_name": "Hardware",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "name": "InteriorSteeringWheel04",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "name": "InteriorSteeringWheel01",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 6,
+          "material_name": "Interior 3 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "name": "InteriorSteeringWheel02",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 3,
+          "material_name": "Interior 1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "name": "InteriorSteeringWheel03",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 3,
+          "material_name": "Interior 1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "name": "InteriorSteeringDash",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 8,
+          "material_name": "Dashboard",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "name": "InteriorSteeringDashColumn",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "name": "InteriorSteeringHandleL",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 5,
+          "material_name": "Hardware",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "name": "InteriorSteeringHandleR",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 5,
+          "material_name": "Hardware",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "name": "License Plate",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 9,
+          "material_name": "License",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "name": "BodyRoofPanel",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 10,
+          "material_name": "Paint 2 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "name": "BodyRearPanelsColor1",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 11,
+          "material_name": "Paint 1 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "name": "InteriorRearHatch",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "name": "BodyWindowsRearSides",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 1,
+          "material_name": "Glass",
+          "attributes": [
+            "POSITION",
+            "NORMAL"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "name": "BodyTurnsignalsRear",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 12,
+          "material_name": "Signallight",
+          "attributes": [
+            "POSITION",
+            "NORMAL"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "name": "BodyTaillightsPanels",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "name": "BodyTaillights",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 13,
+          "material_name": "Brakelight",
+          "attributes": [
+            "POSITION",
+            "NORMAL"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "name": "BodyRearwindow",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 1,
+          "material_name": "Glass",
+          "attributes": [
+            "POSITION",
+            "NORMAL"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "name": "BodyPillars",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 11,
+          "material_name": "Paint 1 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "name": "BodyPanelsColor2",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 10,
+          "material_name": "Paint 2 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "name": "BodyHood",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 11,
+          "material_name": "Paint 1 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "name": "BodyHoodInterior01",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "name": "BodyHoodInterior02",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "name": "BodyHoodTopgrill",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 10,
+          "material_name": "Paint 2 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "name": "BodyHoodUnder",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "name": "BodyHeadlights",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 14,
+          "material_name": "Headlight",
+          "attributes": [
+            "POSITION",
+            "NORMAL"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "name": "BodyDoorRColor1",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 11,
+          "material_name": "Paint 1 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "name": "BodyDoorRColor2",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 10,
+          "material_name": "Paint 2 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "name": "BodyDoorRHandle01",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "name": "BodyDoorRHandle02",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 10,
+          "material_name": "Paint 2 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "name": "BodyDoorRMirror",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 15,
+          "material_name": "Mirror",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "name": "BodyDoorRMirrorColor1",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 11,
+          "material_name": "Paint 1 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "name": "BodyDoorRMirrorColor2",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 10,
+          "material_name": "Paint 2 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "name": "BodyDoorRWindow",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 1,
+          "material_name": "Glass",
+          "attributes": [
+            "POSITION",
+            "NORMAL"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "name": "BodyDoorRWindowGasket",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "name": "InteriorDoorR02",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 3,
+          "material_name": "Interior 1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "name": "InteriorDoorR03",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 6,
+          "material_name": "Interior 3 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "name": "InteriorDoorR04",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 6,
+          "material_name": "Interior 3 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "name": "InteriorDoorR05",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 6,
+          "material_name": "Interior 3 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "name": "InteriorDoorR06",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 5,
+          "material_name": "Hardware",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "name": "BodyDoorLColor1",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 11,
+          "material_name": "Paint 1 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "name": "InteriorDoorL04",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 6,
+          "material_name": "Interior 3 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "name": "InteriorDoorL02",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 3,
+          "material_name": "Interior 1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "name": "InteriorDoorL03",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 6,
+          "material_name": "Interior 3 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "name": "InteriorDoorL05",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 6,
+          "material_name": "Interior 3 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "name": "InteriorDoorL06",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 5,
+          "material_name": "Hardware",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "name": "BodyDoorLColor2",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 10,
+          "material_name": "Paint 2 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "name": "BodyDoorLHandle01",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "name": "BodyDoorLHandle02",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 10,
+          "material_name": "Paint 2 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "name": "BodyDoorLMirror",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 15,
+          "material_name": "Mirror",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "name": "BodyDoorLMirrorColor1",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 11,
+          "material_name": "Paint 1 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "name": "BodyDoorLWindowGasket",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 2,
+          "material_name": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "name": "BodyDoorLWindow",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 1,
+          "material_name": "Glass",
+          "attributes": [
+            "POSITION",
+            "NORMAL"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "name": "BodyDoorLMirrorColor2",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 10,
+          "material_name": "Paint 2 Carmine",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "name": "WheelFrontLBrakePad",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 16,
+          "material_name": "Brake",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "name": "WheelFrontLBrakeDisc",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 17,
+          "material_name": "Disc",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "name": "WheelFrontRBrakePad",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 16,
+          "material_name": "Brake",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "name": "WheelFrontRBrakeDisc",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 17,
+          "material_name": "Disc",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "name": "WheelRearLBrakeDisc",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 17,
+          "material_name": "Disc",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "name": "WheelRearLBrakePad",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 16,
+          "material_name": "Brake",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "name": "WheelRearRBrakeDisc",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 17,
+          "material_name": "Disc",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "name": "WheelRearRBrakePad",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 16,
+          "material_name": "Brake",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "name": "Axles",
+      "primitive_count": 1,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 0,
+          "material_name": "Mechanical",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "name": "mesh_85",
+      "primitive_count": 2,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 28,
+          "material_name": "Panel Sides",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        },
+        {
+          "primitive_index": 1,
+          "material_index": 28,
+          "material_name": "Panel Sides",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "name": "mesh_86",
+      "primitive_count": 2,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 0,
+          "material_name": "Mechanical",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        },
+        {
+          "primitive_index": 1,
+          "material_index": 3,
+          "material_name": "Interior 1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "name": "mesh_87",
+      "primitive_count": 2,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 0,
+          "material_name": "Mechanical",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        },
+        {
+          "primitive_index": 1,
+          "material_index": 3,
+          "material_name": "Interior 1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "name": "mesh_88",
+      "primitive_count": 2,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 0,
+          "material_name": "Mechanical",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        },
+        {
+          "primitive_index": 1,
+          "material_index": 3,
+          "material_name": "Interior 1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "name": "mesh_89",
+      "primitive_count": 2,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 18,
+          "material_name": "Tireside",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        },
+        {
+          "primitive_index": 1,
+          "material_index": 19,
+          "material_name": "Tiretread",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "name": "mesh_90",
+      "primitive_count": 2,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 20,
+          "material_name": "Rim2",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        },
+        {
+          "primitive_index": 1,
+          "material_index": 21,
+          "material_name": "Rim1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "name": "mesh_91",
+      "primitive_count": 2,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 18,
+          "material_name": "Tireside",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        },
+        {
+          "primitive_index": 1,
+          "material_index": 19,
+          "material_name": "Tiretread",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "name": "mesh_92",
+      "primitive_count": 2,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 20,
+          "material_name": "Rim2",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        },
+        {
+          "primitive_index": 1,
+          "material_index": 21,
+          "material_name": "Rim1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "name": "mesh_93",
+      "primitive_count": 2,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 18,
+          "material_name": "Tireside",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        },
+        {
+          "primitive_index": 1,
+          "material_index": 19,
+          "material_name": "Tiretread",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "name": "mesh_94",
+      "primitive_count": 2,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 20,
+          "material_name": "Rim2",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        },
+        {
+          "primitive_index": 1,
+          "material_index": 21,
+          "material_name": "Rim1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "name": "mesh_95",
+      "primitive_count": 2,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 18,
+          "material_name": "Tireside",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        },
+        {
+          "primitive_index": 1,
+          "material_index": 19,
+          "material_name": "Tiretread",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TANGENT",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    },
+    {
+      "index": 96,
+      "name": "mesh_96",
+      "primitive_count": 2,
+      "primitives": [
+        {
+          "primitive_index": 0,
+          "material_index": 20,
+          "material_name": "Rim2",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        },
+        {
+          "primitive_index": 1,
+          "material_index": 21,
+          "material_name": "Rim1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TEXCOORD_1"
+          ],
+          "has_indices": true
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "index": 0,
+      "name": "Mechanical",
+      "base_color_factor": [
+        0.05112205445766449,
+        0.05112205445766449,
+        0.05112205445766449,
+        1.0
+      ],
+      "metallic_factor": 1.0,
+      "roughness_factor": 1.0,
+      "extensions": [],
+      "double_sided": false
+    },
+    {
+      "index": 1,
+      "name": "Glass",
+      "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.0,
+      "extensions": [
+        "KHR_materials_transmission"
+      ],
+      "double_sided": true
+    },
+    {
+      "index": 2,
+      "name": "material_2",
+      "base_color_factor": [
+        0.002932318253442645,
+        0.002932318253442645,
+        0.002932318253442645,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.8,
+      "extensions": [],
+      "double_sided": true
+    },
+    {
+      "index": 3,
+      "name": "Interior 1",
+      "base_color_factor": [
+        0.003697239328175783,
+        0.003697239328175783,
+        0.003697239328175783,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.4,
+      "extensions": [],
+      "double_sided": false
+    },
+    {
+      "index": 4,
+      "name": "Floormat",
+      "base_color_factor": [
+        0.0012017396511510017,
+        0.0012017396511510017,
+        0.0012017396511510017,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.5,
+      "extensions": [],
+      "double_sided": false
+    },
+    {
+      "index": 5,
+      "name": "Hardware",
+      "base_color_factor": [
+        0.2715774476528168,
+        0.2715774476528168,
+        0.2715774476528168,
+        1.0
+      ],
+      "metallic_factor": 1.0,
+      "roughness_factor": 0.5,
+      "extensions": [],
+      "double_sided": false
+    },
+    {
+      "index": 6,
+      "name": "Interior 3 Carmine",
+      "base_color_factor": [
+        0.21576441824436188,
+        0.005,
+        0.0,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.4,
+      "extensions": [],
+      "double_sided": true
+    },
+    {
+      "index": 7,
+      "name": "Interior 2",
+      "base_color_factor": [
+        0.003697239328175783,
+        0.003697239328175783,
+        0.003697239328175783,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.4,
+      "extensions": [],
+      "double_sided": false
+    },
+    {
+      "index": 8,
+      "name": "Dashboard",
+      "base_color_factor": [
+        0.0012017396511510017,
+        0.0012017396511510017,
+        0.0012017396511510017,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.5,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ],
+      "double_sided": false
+    },
+    {
+      "index": 9,
+      "name": "License",
+      "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.8,
+      "extensions": [],
+      "double_sided": false
+    },
+    {
+      "index": 10,
+      "name": "Paint 2 Carmine",
+      "base_color_factor": [
+        0.03775528281927109,
+        0.03775528281927109,
+        0.03775528281927109,
+        1.0
+      ],
+      "metallic_factor": 1.0,
+      "roughness_factor": 0.3,
+      "extensions": [
+        "KHR_materials_clearcoat"
+      ],
+      "double_sided": true
+    },
+    {
+      "index": 11,
+      "name": "Paint 1 Carmine",
+      "base_color_factor": [
+        0.666,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "metallic_factor": 1.0,
+      "roughness_factor": 0.25,
+      "extensions": [
+        "KHR_materials_clearcoat"
+      ],
+      "double_sided": true
+    },
+    {
+      "index": 12,
+      "name": "Signallight",
+      "base_color_factor": [
+        0.0012017396511510017,
+        0.0012017396511510017,
+        0.0012017396511510017,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.5,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ],
+      "double_sided": false
+    },
+    {
+      "index": 13,
+      "name": "Brakelight",
+      "base_color_factor": [
+        0.0012017396511510017,
+        0.0012017396511510017,
+        0.0012017396511510017,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.5,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ],
+      "double_sided": false
+    },
+    {
+      "index": 14,
+      "name": "Headlight",
+      "base_color_factor": [
+        0.0012017396511510017,
+        0.0012017396511510017,
+        0.0012017396511510017,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.5,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ],
+      "double_sided": false
+    },
+    {
+      "index": 15,
+      "name": "Mirror",
+      "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic_factor": 1.0,
+      "roughness_factor": 0.0,
+      "extensions": [],
+      "double_sided": false
+    },
+    {
+      "index": 16,
+      "name": "Brake",
+      "base_color_factor": [
+        0.6523702144622803,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "metallic_factor": 1.0,
+      "roughness_factor": 0.2,
+      "extensions": [],
+      "double_sided": false
+    },
+    {
+      "index": 17,
+      "name": "Disc",
+      "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic_factor": 1.0,
+      "roughness_factor": 0.73,
+      "extensions": [],
+      "double_sided": true
+    },
+    {
+      "index": 18,
+      "name": "Tireside",
+      "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.4,
+      "extensions": [],
+      "double_sided": false
+    },
+    {
+      "index": 19,
+      "name": "Tiretread",
+      "base_color_factor": [
+        0.009021492674946783,
+        0.009021492674946783,
+        0.009021492674946783,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.6,
+      "extensions": [],
+      "double_sided": false
+    },
+    {
+      "index": 20,
+      "name": "Rim2",
+      "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic_factor": 1.0,
+      "roughness_factor": 0.049,
+      "extensions": [],
+      "double_sided": false
+    },
+    {
+      "index": 21,
+      "name": "Rim1",
+      "base_color_factor": [
+        0.000992374261841178,
+        0.000992374261841178,
+        0.000992374261841178,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.4,
+      "extensions": [],
+      "double_sided": false
+    },
+    {
+      "index": 22,
+      "name": "Paint 1 Pearl",
+      "base_color_factor": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "metallic_factor": 1.0,
+      "roughness_factor": 0.35,
+      "extensions": [
+        "KHR_materials_clearcoat",
+        "KHR_materials_iridescence"
+      ],
+      "double_sided": true
+    },
+    {
+      "index": 23,
+      "name": "Paint 1 Graphite",
+      "base_color_factor": [
+        0.15,
+        0.15,
+        0.15,
+        1.0
+      ],
+      "metallic_factor": 1.0,
+      "roughness_factor": 0.3,
+      "extensions": [],
+      "double_sided": true
+    },
+    {
+      "index": 24,
+      "name": "Paint 2 Pearl",
+      "base_color_factor": [
+        0.4,
+        0.4,
+        0.4,
+        1.0
+      ],
+      "metallic_factor": 1.0,
+      "roughness_factor": 0.25,
+      "extensions": [],
+      "double_sided": true
+    },
+    {
+      "index": 25,
+      "name": "Paint 2 Graphite",
+      "base_color_factor": [
+        0.1,
+        0.1,
+        0.1,
+        1.0
+      ],
+      "metallic_factor": 1.0,
+      "roughness_factor": 0.2,
+      "extensions": [
+        "KHR_materials_iridescence"
+      ],
+      "double_sided": true
+    },
+    {
+      "index": 26,
+      "name": "Interior 3 Pearl",
+      "base_color_factor": [
+        0.98,
+        0.98,
+        0.98,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.4,
+      "extensions": [],
+      "double_sided": true
+    },
+    {
+      "index": 27,
+      "name": "Interior 3 Graphite",
+      "base_color_factor": [
+        0.02,
+        0.05,
+        0.1,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.4,
+      "extensions": [],
+      "double_sided": true
+    },
+    {
+      "index": 28,
+      "name": "Panel Sides",
+      "base_color_factor": [
+        0.003697239328175783,
+        0.003697239328175783,
+        0.003697239328175783,
+        1.0
+      ],
+      "metallic_factor": 0.0,
+      "roughness_factor": 0.4,
+      "extensions": [],
+      "double_sided": false
+    }
+  ]
+}

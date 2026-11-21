@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-11-21T11:37:26.437Z",
+  "fps": {
+    "avgFps": 45.3,
+    "avgFrameTimeMs": 22.08,
+    "minDt": 16.6,
+    "maxDt": 33.5
+  },
+  "memoryStability": {
+    "initial": {
+      "geometries": 140,
+      "textures": 53,
+      "heapMB": 106.9
+    },
+    "post50Cycles": {
+      "geometries": 140,
+      "textures": 53,
+      "heapMB": 101
+    },
+    "geometryLeaks": 0,
+    "textureLeaks": 0
+  },
+  "hudVerified": true,
+  "consoleErrorsCount": 0
+}

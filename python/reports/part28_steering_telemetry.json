@@ -1,0 +1,197 @@
+{
+  "testTimestamp": "2026-11-21T00:18:03.238Z",
+  "scenarios": {
+    "spawnNeutral": {
+      "position": [
+        9.549088264163275e-12,
+        0.0012388650486912477,
+        0.00009328665456802854
+      ],
+      "rotation": [
+        -0.0003,
+        0,
+        0
+      ],
+      "speedKmh": 0,
+      "steering": {
+        "steeringInput": 0,
+        "centralAngleDeg": 0,
+        "centralAngleRad": 0,
+        "angleFLDeg": 0,
+        "angleFLRad": 0,
+        "angleFRDeg": 0,
+        "angleFRRad": 0,
+        "maxSteerLimitDeg": 30,
+        "yawRateDeg": 0,
+        "yawRateRad": 0,
+        "lateralG": 0,
+        "lateralForceTotal": 0,
+        "isSteering": false
+      }
+    },
+    "standstillSteerLeft": {
+      "position": [
+        9.549088264163275e-12,
+        0.0010323111656367014,
+        0.00009328665456802854
+      ],
+      "linearVelocity": [
+        0,
+        -0.00007847522961671895,
+        0
+      ],
+      "angularVelocity": [
+        0.000002064275508529782,
+        0,
+        1.8471930088681037e-8
+      ],
+      "steering": {
+        "steeringInput": -1,
+        "centralAngleDeg": 30,
+        "centralAngleRad": 0.5236,
+        "angleFLDeg": 35.9,
+        "angleFLRad": 0.6259,
+        "angleFRDeg": 25.7,
+        "angleFRRad": 0.448,
+        "maxSteerLimitDeg": 30,
+        "yawRateDeg": 0,
+        "yawRateRad": 0,
+        "lateralG": 0,
+        "lateralForceTotal": 0,
+        "isSteering": true
+      },
+      "wheelRollAngles": {
+        "wheel_fl": 0,
+        "wheel_fr": 0,
+        "wheel_rl": 0,
+        "wheel_rr": 0
+      },
+      "drivingSteerAngles": {
+        "wheel_fl": 0.6258746721129232,
+        "wheel_fr": 0.4480281823117642
+      }
+    },
+    "standstillSteerRight": {
+      "position": [
+        9.549088264163275e-12,
+        0.0010228001731697287,
+        0.00009328665456802854
+      ],
+      "steering": {
+        "steeringInput": 1,
+        "centralAngleDeg": -30,
+        "centralAngleRad": -0.5236,
+        "angleFLDeg": -25.7,
+        "angleFLRad": -0.448,
+        "angleFRDeg": -35.9,
+        "angleFRRad": -0.6259,
+        "maxSteerLimitDeg": 30,
+        "yawRateDeg": 0,
+        "yawRateRad": 0,
+        "lateralG": 0,
+        "lateralForceTotal": 0,
+        "isSteering": true
+      }
+    },
+    "dynamicTurnLeft": {
+      "position": [
+        5.221447222099331,
+        0.0007505183791866025,
+        6.772366169019377
+      ],
+      "rotation": [
+        0.0353,
+        1.03,
+        -0.0302
+      ],
+      "speedKmh": 31.3,
+      "displaySpeed": 31,
+      "steering": {
+        "steeringInput": -0.65,
+        "centralAngleDeg": 17.3,
+        "centralAngleRad": 0.3016,
+        "angleFLDeg": 19.2,
+        "angleFLRad": 0.3358,
+        "angleFRDeg": 15.7,
+        "angleFRRad": 0.2737,
+        "maxSteerLimitDeg": 26.6,
+        "yawRateDeg": 53.2,
+        "yawRateRad": 0.9291,
+        "lateralG": 0.76,
+        "lateralForceTotal": 10762,
+        "isSteering": true
+      }
+    },
+    "dynamicTurnRight": {
+      "position": [
+        19.177415538241107,
+        -0.00012025109828755683,
+        23.279530503195964
+      ],
+      "rotation": [
+        0.0447,
+        -1.1987,
+        0.0412
+      ],
+      "speedKmh": 19.7,
+      "displaySpeed": 20,
+      "steering": {
+        "steeringInput": 0.7,
+        "centralAngleDeg": -19.9,
+        "centralAngleRad": -0.348,
+        "angleFLDeg": -17.8,
+        "angleFLRad": -0.3115,
+        "angleFRDeg": -22.5,
+        "angleFRRad": -0.3936,
+        "maxSteerLimitDeg": 28.5,
+        "yawRateDeg": -133.6,
+        "yawRateRad": -2.3323,
+        "lateralG": -1.11,
+        "lateralForceTotal": -15857,
+        "isSteering": true
+      }
+    },
+    "highSpeedTurn": {
+      "position": [
+        17.33043467157018,
+        -0.0002963230515111742,
+        25.758274959563163
+      ],
+      "speedKmh": 18,
+      "displaySpeed": 18,
+      "steering": {
+        "steeringInput": -0.5,
+        "centralAngleDeg": 14.4,
+        "centralAngleRad": 0.2505,
+        "angleFLDeg": 15.7,
+        "angleFLRad": 0.2739,
+        "angleFRDeg": 13.2,
+        "angleFRRad": 0.2308,
+        "maxSteerLimitDeg": 28.7,
+        "yawRateDeg": 26.3,
+        "yawRateRad": 0.4584,
+        "lateralG": 0.27,
+        "lateralForceTotal": 3908,
+        "isSteering": true
+      }
+    },
+    "selfCentering": {
+      "speedKmh": 29.3,
+      "steering": {
+        "steeringInput": 0,
+        "centralAngleDeg": 0,
+        "centralAngleRad": 0,
+        "angleFLDeg": 0,
+        "angleFLRad": 0,
+        "angleFRDeg": 0,
+        "angleFRRad": 0,
+        "maxSteerLimitDeg": 26.9,
+        "yawRateDeg": 0,
+        "yawRateRad": 0,
+        "lateralG": 0,
+        "lateralForceTotal": 0,
+        "isSteering": false
+      }
+    }
+  }
+}

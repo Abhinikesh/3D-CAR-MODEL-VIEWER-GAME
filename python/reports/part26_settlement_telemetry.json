@@ -1,0 +1,11 @@
+{
+  "isSettled": true,
+  "settleProgress": 1,
+  "chassisY": 0.0012388555213848024,
+  "linearVelY": 0,
+  "totalSteps": 67,
+  "wheelFL_force": 3548,
+  "wheelFR_force": 3548,
+  "wheelRL_force": 3575,
+  "wheelRR_force": 3575
+}

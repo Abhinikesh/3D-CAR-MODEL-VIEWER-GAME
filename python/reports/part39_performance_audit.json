@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-11-21T11:01:03.188Z",
+  "milestone": "Part 39 — Performance Optimization and Complete Regression Testing",
+  "loadTimings": {
+    "domContentLoadedMs": 227.4,
+    "loadEventMs": 228.3,
+    "glbDurationMs": 356.2,
+    "glbTransferBytes": 300,
+    "glbDecodedBytes": 11802676,
+    "hdrDurationMs": 2.4,
+    "hdrTransferBytes": 300
+  },
+  "showroom": {
+    "avgFps": 56.3,
+    "avgFrameTimeMs": 17.78,
+    "frameTimeBounds": [
+      16.6,
+      33.4
+    ],
+    "drawCalls": 9,
+    "triangles": 48,
+    "geometries": 124,
+    "textures": 28,
+    "programs": 35,
+    "jsHeapMB": 134.3
+  },
+  "driving": {
+    "avgFps": 58.1,
+    "avgFrameTimeMs": 17.22,
+    "frameTimeBounds": [
+      16.5,
+      33.3
+    ],
+    "drawCalls": 446,
+    "triangles": 822167,
+    "geometries": 170,
+    "textures": 33,
+    "programs": 68,
+    "jsHeapMB": 91.1,
+    "physicsStepCostMs": 0.0017,
+    "physics60StepsBatchMs": 0.1
+  },
+  "transitions": {
+    "showroomToDrivingMs": 2609,
+    "stressTestCycles": 5,
+    "geometryLeaks": 2,
+    "textureLeaks": 67,
+    "heapDeltaMB": 2.4
+  },
+  "network": {
+    "controllerDiscoveryReady": true,
+    "controllerIp": "10.97.150.40",
+    "maxPayloadBytes": 2048,
+    "rateLimitPacketsPerSec": 60,
+    "staleWatchdogTimeoutMs": 750,
+    "heartbeatLossTimeoutMs": 2000
+  },
+  "screenshots": [
+    "python/reports/part39_01_showroom_hero.png",
+    "python/reports/part39_02_driving_proving_ground.png",
+    "python/reports/part39_03_phone_connection_panel.png"
+  ],
+  "consoleErrorsCount": 0
+}

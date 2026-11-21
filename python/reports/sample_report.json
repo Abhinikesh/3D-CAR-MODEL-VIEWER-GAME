@@ -1,0 +1,197 @@
+{
+  "file": {
+    "path": "python/reports/sample_test.glb",
+    "size_bytes": 1528,
+    "declared_size_bytes": 1528,
+    "glb_version": 2,
+    "is_valid_container": true,
+    "chunk_count": 1,
+    "chunks": [
+      {
+        "type": "JSON",
+        "length": 1508,
+        "offset": 12
+      }
+    ]
+  },
+  "scene": {
+    "scene_count": 1,
+    "active_scene": 0,
+    "total_nodes": 5,
+    "root_nodes": [
+      0
+    ],
+    "duplicate_node_names": {},
+    "mesh_count": 3
+  },
+  "geometry": {
+    "primitive_count": 3,
+    "total_vertices": 36,
+    "total_triangles": 18,
+    "indexed_primitives": 3,
+    "non_indexed_primitives": 0,
+    "bounding_box": {
+      "is_valid": true,
+      "min": [
+        -0.95,
+        0.0,
+        -2.25
+      ],
+      "max": [
+        0.95,
+        1.45,
+        2.25
+      ],
+      "size": [
+        1.9,
+        1.45,
+        4.5
+      ],
+      "center": [
+        0.0,
+        0.725,
+        0.0
+      ]
+    }
+  },
+  "materials": {
+    "material_count": 2,
+    "texture_count": 0,
+    "image_count": 0,
+    "has_clearcoat": true,
+    "has_transmission": false,
+    "materials_list": [
+      {
+        "index": 0,
+        "name": "Material_Body_Paint",
+        "pbr": {
+          "base_color_factor": [
+            0.1,
+            0.2,
+            0.5,
+            1.0
+          ],
+          "metallic_factor": 0.9,
+          "roughness_factor": 0.2
+        },
+        "has_clearcoat": true,
+        "has_transmission": false
+      },
+      {
+        "index": 1,
+        "name": "Material_Rim_Chrome",
+        "pbr": {
+          "base_color_factor": [
+            0.9,
+            0.9,
+            0.9,
+            1.0
+          ],
+          "metallic_factor": 1.0,
+          "roughness_factor": 0.1
+        },
+        "has_clearcoat": false,
+        "has_transmission": false
+      }
+    ]
+  },
+  "vehicle_structure": {
+    "is_monolithic": false,
+    "suitability_score": 0.8999999999999999,
+    "chassis_nodes": [
+      "Chassis_Body_Static"
+    ],
+    "door_fl_nodes": [
+      "Pivot_Door_FL",
+      "Door_FL_Mesh"
+    ],
+    "door_fr_nodes": [],
+    "door_rl_nodes": [],
+    "door_rr_nodes": [],
+    "bonnet_nodes": [],
+    "boot_nodes": [],
+    "wheel_nodes": [
+      "Wheel_Assembly_FL"
+    ],
+    "door_pivots": [
+      "Pivot_Door_FL"
+    ],
+    "bonnet_pivot": null,
+    "boot_pivot": null,
+    "wheel_pivots": []
+  },
+  "validation": {
+    "overall_status": "WARNING",
+    "pass_count": 10,
+    "warning_count": 1,
+    "error_count": 0,
+    "issues": [
+      {
+        "rule_id": "GLB_CONTAINER_PASS",
+        "severity": "PASS",
+        "message": "GLB header and chunk structure are valid.",
+        "details": null
+      },
+      {
+        "rule_id": "HIERARCHY_REFS_PASS",
+        "severity": "PASS",
+        "message": "Scene graph parent-child references are consistent.",
+        "details": null
+      },
+      {
+        "rule_id": "NODE_NAMES_UNIQUE_PASS",
+        "severity": "PASS",
+        "message": "All scene node names are unique.",
+        "details": null
+      },
+      {
+        "rule_id": "GEOMETRY_ATTRIBUTES_PASS",
+        "severity": "PASS",
+        "message": "All primitives have required POSITION attributes.",
+        "details": null
+      },
+      {
+        "rule_id": "GEOMETRY_NON_EMPTY_PASS",
+        "severity": "PASS",
+        "message": "Geometry present: 36 vertices, 18 triangles across 3 meshes.",
+        "details": null
+      },
+      {
+        "rule_id": "BUDGET_TRIANGLES_PASS",
+        "severity": "PASS",
+        "message": "Triangle count (18) is well within budget.",
+        "details": null
+      },
+      {
+        "rule_id": "BUDGET_FILESIZE_PASS",
+        "severity": "PASS",
+        "message": "File size (0.00 MB) is within budget.",
+        "details": null
+      },
+      {
+        "rule_id": "MATERIALS_REFS_PASS",
+        "severity": "PASS",
+        "message": "Material references valid (2 materials, 0 textures).",
+        "details": null
+      },
+      {
+        "rule_id": "VEHICLE_DOOR_PIVOTS_PASS",
+        "severity": "PASS",
+        "message": "Detected door pivot nodes: Pivot_Door_FL",
+        "details": null
+      },
+      {
+        "rule_id": "VEHICLE_CLOSURES_PIVOTS_WARN",
+        "severity": "WARNING",
+        "message": "No bonnet or boot pivot nodes detected.",
+        "details": "Hood/trunk opening animations will require pivot configuration in Part 4."
+      },
+      {
+        "rule_id": "BOUNDS_SCALE_PASS",
+        "severity": "PASS",
+        "message": "Bounding box dimensions: X=1.90m, Y=1.45m, Z=4.50m.",
+        "details": null
+      }
+    ]
+  }
+}

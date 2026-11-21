@@ -1,0 +1,225 @@
+/**
+ * Wheel and Rim Preset Definitions
+ * Defines physically based parameter configurations for rim finishes,
+ * brake caliper finishes, and wheel targeting options.
+ */
+
+export const RIM_FINISH_PRESETS = {
+  factory: {
+    id: 'factory',
+    name: 'Factory OEM',
+    category: 'Factory',
+    color: '#D0D4DA',
+    innerColor: '#1A1C20',
+    metalness: 1.0,
+    roughness: 0.05,
+    clearcoat: 0.3,
+    clearcoatRoughness: 0.05,
+    reflectivity: 1.0,
+    envMapIntensity: 1.2,
+    description: 'Factory two-tone polished face with dark spoke cavity',
+  },
+  gloss_black: {
+    id: 'gloss_black',
+    name: 'Gloss Black',
+    category: 'Gloss',
+    color: '#0D0E11',
+    innerColor: '#070709',
+    metalness: 0.15,
+    roughness: 0.04,
+    clearcoat: 1.0,
+    clearcoatRoughness: 0.03,
+    reflectivity: 0.9,
+    envMapIntensity: 1.1,
+    description: 'High-gloss deep piano black with mirror clearcoat',
+  },
+  satin_black: {
+    id: 'satin_black',
+    name: 'Satin Black',
+    category: 'Satin',
+    color: '#18191C',
+    innerColor: '#101114',
+    metalness: 0.25,
+    roughness: 0.38,
+    clearcoat: 0.15,
+    clearcoatRoughness: 0.35,
+    reflectivity: 0.5,
+    envMapIntensity: 0.8,
+    description: 'Stealth satin black with low-sheen specular reflection',
+  },
+  silver_metallic: {
+    id: 'silver_metallic',
+    name: 'Silver Metallic',
+    category: 'Metallic',
+    color: '#DCE0E6',
+    innerColor: '#8C929C',
+    metalness: 0.92,
+    roughness: 0.18,
+    clearcoat: 0.7,
+    clearcoatRoughness: 0.1,
+    reflectivity: 0.85,
+    envMapIntensity: 1.3,
+    description: 'Brilliant fine-flake automotive silver metallic',
+  },
+  chrome: {
+    id: 'chrome',
+    name: 'High Chrome',
+    category: 'Chrome',
+    color: '#FFFFFF',
+    innerColor: '#A0A6B0',
+    metalness: 1.0,
+    roughness: 0.01,
+    clearcoat: 0.4,
+    clearcoatRoughness: 0.02,
+    reflectivity: 1.0,
+    envMapIntensity: 1.6,
+    description: 'Mirror-polished electroplated chrome',
+  },
+  gunmetal: {
+    id: 'gunmetal',
+    name: 'Gunmetal Grey',
+    category: 'Metallic',
+    color: '#42454B',
+    innerColor: '#25272B',
+    metalness: 0.88,
+    roughness: 0.24,
+    clearcoat: 0.55,
+    clearcoatRoughness: 0.15,
+    reflectivity: 0.75,
+    envMapIntensity: 1.0,
+    description: 'Dark charcoal metallic with aggressive specular depth',
+  },
+  titanium_grey: {
+    id: 'titanium_grey',
+    name: 'Titanium Grey',
+    category: 'Metallic',
+    color: '#6E727A',
+    innerColor: '#3A3D42',
+    metalness: 0.82,
+    roughness: 0.32,
+    clearcoat: 0.45,
+    clearcoatRoughness: 0.2,
+    reflectivity: 0.7,
+    envMapIntensity: 0.95,
+    description: 'Motorsport-grade satin titanium alloy',
+  },
+  bronze: {
+    id: 'bronze',
+    name: 'Satin Bronze',
+    category: 'Satin',
+    color: '#8E6338',
+    innerColor: '#4A341D',
+    metalness: 0.78,
+    roughness: 0.28,
+    clearcoat: 0.5,
+    clearcoatRoughness: 0.2,
+    reflectivity: 0.8,
+    envMapIntensity: 1.15,
+    description: 'Racing heritage satin bronze with deep warm undertones',
+  },
+  gold: {
+    id: 'gold',
+    name: 'Race Gold',
+    category: 'Metallic',
+    color: '#C6A24D',
+    innerColor: '#6B5424',
+    metalness: 0.86,
+    roughness: 0.22,
+    clearcoat: 0.65,
+    clearcoatRoughness: 0.12,
+    reflectivity: 0.88,
+    envMapIntensity: 1.35,
+    description: 'Championship gold metallic with lustrous flake highlight',
+  },
+  custom: {
+    id: 'custom',
+    name: 'Custom Finish',
+    category: 'Custom',
+    color: '#FF4422',
+    innerColor: '#551100',
+    metalness: 0.8,
+    roughness: 0.2,
+    clearcoat: 0.6,
+    clearcoatRoughness: 0.1,
+    reflectivity: 0.8,
+    envMapIntensity: 1.0,
+    description: 'User-specified bespoke rim finish',
+  },
+};
+
+export const CALIPER_PRESETS = {
+  factory: {
+    id: 'factory',
+    name: 'Factory Carmine',
+    color: '#A60000',
+    metalness: 0.65,
+    roughness: 0.22,
+    clearcoat: 0.7,
+  },
+  racing_red: {
+    id: 'racing_red',
+    name: 'Brembo Red',
+    color: '#DD1100',
+    metalness: 0.55,
+    roughness: 0.18,
+    clearcoat: 0.85,
+  },
+  performance_yellow: {
+    id: 'performance_yellow',
+    name: 'Speed Yellow',
+    color: '#FFC800',
+    metalness: 0.45,
+    roughness: 0.2,
+    clearcoat: 0.85,
+  },
+  electric_blue: {
+    id: 'electric_blue',
+    name: 'Electric Blue',
+    color: '#0066FF',
+    metalness: 0.6,
+    roughness: 0.2,
+    clearcoat: 0.8,
+  },
+  stealth_black: {
+    id: 'stealth_black',
+    name: 'Gloss Black',
+    color: '#111215',
+    metalness: 0.35,
+    roughness: 0.1,
+    clearcoat: 0.9,
+  },
+  custom: {
+    id: 'custom',
+    name: 'Custom Caliper',
+    color: '#00E5FF',
+    metalness: 0.5,
+    roughness: 0.2,
+    clearcoat: 0.8,
+  },
+};
+
+/**
+ * Single Genuine Rim Style Declaration.
+ * As confirmed by binary GLB and manifest inspection, the CarConcept asset
+ * contains exactly one rim design (OEM 5-Spoke Split).
+ */
+export const RIM_STYLES = {
+  oem_5spoke: {
+    id: 'oem_5spoke',
+    name: 'OEM 5-Spoke Sport',
+    description: 'Factory dual-primitive sport wheel with polished outer face & deep spokes',
+    available: true,
+  },
+};
+
+export const RIM_STYLE_LIMITATION_NOTE =
+  'The Khronos CarConcept GLB contains exactly one verified rim geometry (OEM 5-Spoke). ' +
+  'Rim style selection architecture is extensible; additional 3D geometric rim designs require supplementary mesh assets.';
+
+export const WHEEL_TARGET_MODES = {
+  ALL: 'all',
+  FRONT_REAR: 'front_rear',
+  INDIVIDUAL: 'individual',
+};
+
+export const WHEEL_POSITIONS = ['fl', 'fr', 'rl', 'rr'];

@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-11-20T16:59:13.501Z",
+  "asset": {
+    "file": "public/models/car.glb",
+    "fileSizeBytes": 11802676,
+    "fileSizeMB": 11.26,
+    "meshes": 97,
+    "triangles": 213347,
+    "vertices": 162766,
+    "hdrFile": "public/environments/studio_small_08_1k.hdr",
+    "hdrSizeMB": 1.44
+  },
+  "timing": {
+    "domContentLoaded": 693.3999999910593,
+    "loadComplete": 702.5999999940395,
+    "glbDurationMs": 157.09999999403954,
+    "glbTransferBytes": 11802976,
+    "glbDecodedBytes": 11802676,
+    "hdrDurationMs": 6.700000002980232,
+    "hdrTransferBytes": 1509172
+  },
+  "performance": {
+    "idle": {
+      "avgFps": 60,
+      "minFps": 59.5,
+      "maxFps": 60.6,
+      "avgFrameTimeMs": 16.67,
+      "drawCalls": 9,
+      "triangles": 48,
+      "geometries": 116,
+      "textures": 28,
+      "programs": 32,
+      "jsHeapMB": 80.7
+    },
+    "cameraMovement": {
+      "avgFps": 60,
+      "minFps": 59.5,
+      "maxFps": 60.2,
+      "avgFrameTimeMs": 16.67,
+      "drawCalls": 9,
+      "triangles": 48,
+      "geometries": 116,
+      "textures": 28,
+      "programs": 32,
+      "jsHeapMB": 88.9
+    },
+    "environmentSwitching": {
+      "avgFps": 58.7,
+      "minFps": 29.9,
+      "maxFps": 60.2,
+      "avgFrameTimeMs": 17.04,
+      "drawCalls": 9,
+      "triangles": 48,
+      "geometries": 117,
+      "textures": 28,
+      "programs": 34,
+      "jsHeapMB": 86.8
+    },
+    "vehicleAnimations": {
+      "avgFps": 60,
+      "minFps": 59.5,
+      "maxFps": 60.6,
+      "avgFrameTimeMs": 16.67,
+      "drawCalls": 9,
+      "triangles": 48,
+      "geometries": 117,
+      "textures": 28,
+      "programs": 34,
+      "jsHeapMB": 90.5
+    },
+    "stressMemory": {
+      "initial": {
+        "geometries": 117,
+        "textures": 28,
+        "heapMB": 96.3
+      },
+      "post50Cycles": {
+        "geometries": 117,
+        "textures": 28,
+        "heapMB": 109.5
+      },
+      "geometryGrowth": 0,
+      "textureGrowth": 0,
+      "heapGrowthMB": 13.2
+    }
+  }
+}

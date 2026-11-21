@@ -1,0 +1,755 @@
+{
+  "testTimestamp": "2026-11-21T00:33:22.577Z",
+  "scenarios": {
+    "stationarySettled": {
+      "chassis": {
+        "position": [
+          9.549088264163275e-12,
+          0.0012388650486912477,
+          0.00009328665456802854
+        ],
+        "rotation": [
+          -0.0003,
+          0,
+          0
+        ],
+        "linearVelocity": [
+          0,
+          0,
+          0
+        ],
+        "angularVelocity": [
+          0,
+          0,
+          0
+        ],
+        "speedKmh": 0,
+        "mass": 1450,
+        "groundClearance": 0.0012
+      },
+      "drivetrain": {
+        "gear": "D",
+        "longitudinalSpeed": 0,
+        "speedKmh": 0,
+        "displaySpeed": 0,
+        "driveForce": 0,
+        "brakeForce": 0,
+        "dragForce": 0,
+        "rollingResistanceForce": 0,
+        "netLongitudinalForce": 0,
+        "isAccelerating": false,
+        "isBraking": false,
+        "isCoasting": false,
+        "isReversing": false,
+        "wheelRollAngle": 0
+      },
+      "steering": {
+        "steeringInput": 0,
+        "centralAngleDeg": 0,
+        "centralAngleRad": 0,
+        "angleFLDeg": 0,
+        "angleFLRad": 0,
+        "angleFRDeg": 0,
+        "angleFRRad": 0,
+        "maxSteerLimitDeg": 30,
+        "yawRateDeg": 0,
+        "yawRateRad": 0,
+        "lateralG": 0,
+        "lateralForceTotal": 0,
+        "isSteering": false
+      },
+      "wheels": {
+        "fl": {
+          "suspensionLength": 0.179,
+          "compression": 0.101,
+          "compressionRatio": 0.63,
+          "suspensionForce": 3548,
+          "isGrounded": true,
+          "rollAngle": 0,
+          "groundSpeed": 0,
+          "rpm": 0,
+          "suspensionOffsetMm": 0
+        },
+        "fr": {
+          "suspensionLength": 0.179,
+          "compression": 0.101,
+          "compressionRatio": 0.63,
+          "suspensionForce": 3548,
+          "isGrounded": true,
+          "rollAngle": 0,
+          "groundSpeed": 0,
+          "rpm": 0,
+          "suspensionOffsetMm": 0
+        },
+        "rl": {
+          "suspensionLength": 0.1782,
+          "compression": 0.1018,
+          "compressionRatio": 0.64,
+          "suspensionForce": 3575,
+          "isGrounded": true,
+          "rollAngle": 0,
+          "groundSpeed": 0,
+          "rpm": 0,
+          "suspensionOffsetMm": 0
+        },
+        "rr": {
+          "suspensionLength": 0.1783,
+          "compression": 0.1017,
+          "compressionRatio": 0.64,
+          "suspensionForce": 3575,
+          "isGrounded": true,
+          "rollAngle": 0,
+          "groundSpeed": 0,
+          "rpm": 0,
+          "suspensionOffsetMm": 0
+        }
+      },
+      "drivingWheelTransforms": {
+        "rollAngles": {
+          "wheel_fl": -0.000003209166038304768,
+          "wheel_fr": -0.0000032126824789584126,
+          "wheel_rl": -0.0000032091552295732514,
+          "wheel_rr": -0.0000032126932876899342
+        },
+        "steerAngles": {
+          "wheel_fl": 0,
+          "wheel_fr": 0,
+          "wheel_rl": 0,
+          "wheel_rr": 0
+        },
+        "suspensionOffsets": {
+          "wheel_fl": 0,
+          "wheel_fr": 0,
+          "wheel_rl": 0,
+          "wheel_rr": 0
+        },
+        "centralSteer": 0
+      }
+    },
+    "forwardSpin": {
+      "chassis": {
+        "position": [
+          -0.0000048996332955448055,
+          0.0017270172613975865,
+          7.261161218373349
+        ],
+        "rotation": [
+          0.0254,
+          0,
+          0
+        ],
+        "linearVelocity": [
+          -0.000013011070678616727,
+          0.00003302640750168266,
+          9.176563704208213
+        ],
+        "angularVelocity": [
+          -0.0014115809812855562,
+          -0.00000201357735422036,
+          1.2151352851903036e-7
+        ],
+        "speedKmh": 32.7,
+        "mass": 1450,
+        "groundClearance": 0.0017
+      },
+      "drivetrain": {
+        "gear": "D",
+        "longitudinalSpeed": 9.083,
+        "speedKmh": 32.7,
+        "displaySpeed": 33,
+        "driveForce": 9232,
+        "brakeForce": 0,
+        "dragForce": -30,
+        "rollingResistanceForce": -213,
+        "netLongitudinalForce": 8989,
+        "isAccelerating": true,
+        "isBraking": false,
+        "isCoasting": false,
+        "isReversing": false,
+        "wheelRollAngle": 0.853
+      },
+      "steering": {
+        "steeringInput": 0,
+        "centralAngleDeg": 0,
+        "centralAngleRad": 0,
+        "angleFLDeg": 0,
+        "angleFLRad": 0,
+        "angleFRDeg": 0,
+        "angleFRRad": 0,
+        "maxSteerLimitDeg": 26.3,
+        "yawRateDeg": 0,
+        "yawRateRad": 0,
+        "lateralG": 0,
+        "lateralForceTotal": 0,
+        "isSteering": false
+      },
+      "wheels": {
+        "fl": {
+          "suspensionLength": 0.1412,
+          "compression": 0.1388,
+          "compressionRatio": 0.87,
+          "suspensionForce": 4846,
+          "isGrounded": true,
+          "rollAngle": 0.853,
+          "groundSpeed": 9.08,
+          "rpm": 240,
+          "suspensionOffsetMm": 25.4
+        },
+        "fr": {
+          "suspensionLength": 0.1412,
+          "compression": 0.1388,
+          "compressionRatio": 0.87,
+          "suspensionForce": 4843,
+          "isGrounded": true,
+          "rollAngle": 0.853,
+          "groundSpeed": 9.08,
+          "rpm": 240,
+          "suspensionOffsetMm": 25.4
+        },
+        "rl": {
+          "suspensionLength": 0.2123,
+          "compression": 0.0677,
+          "compressionRatio": 0.42,
+          "suspensionForce": 2382,
+          "isGrounded": true,
+          "rollAngle": 0.853,
+          "groundSpeed": 9.08,
+          "rpm": 240,
+          "suspensionOffsetMm": -22.5
+        },
+        "rr": {
+          "suspensionLength": 0.2123,
+          "compression": 0.0677,
+          "compressionRatio": 0.42,
+          "suspensionForce": 2381,
+          "isGrounded": true,
+          "rollAngle": 0.853,
+          "groundSpeed": 9.08,
+          "rpm": 240,
+          "suspensionOffsetMm": -22.5
+        }
+      },
+      "drivingWheelTransforms": {
+        "rollAngles": {
+          "wheel_fl": 3.459621542003449,
+          "wheel_fr": 3.4596109257739487,
+          "wheel_rl": 3.4596215746353014,
+          "wheel_rr": 3.459610893142096
+        },
+        "steerAngles": {
+          "wheel_fl": 0,
+          "wheel_fr": 0,
+          "wheel_rl": 0,
+          "wheel_rr": 0
+        },
+        "suspensionOffsets": {
+          "wheel_fl": 0.025222309296881018,
+          "wheel_fr": 0.025161818193449925,
+          "wheel_rl": -0.02228633536161123,
+          "wheel_rr": -0.022304001037537435
+        },
+        "centralSteer": 0
+      }
+    },
+    "brakingDive": {
+      "chassis": {
+        "position": [
+          -0.000016540684173261476,
+          -0.004342185310797169,
+          13.209598748799419
+        ],
+        "rotation": [
+          -0.0373,
+          0,
+          0
+        ],
+        "linearVelocity": [
+          -0.000014518745883512053,
+          -0.0153850165013502,
+          6.5371160036665605
+        ],
+        "angularVelocity": [
+          -0.051423570100960415,
+          3.0232260580328036e-7,
+          -0.000013010554584722376
+        ],
+        "speedKmh": 24.2,
+        "mass": 1450,
+        "groundClearance": -0.0043
+      },
+      "drivetrain": {
+        "gear": "D",
+        "longitudinalSpeed": 6.718,
+        "speedKmh": 24.2,
+        "displaySpeed": 24,
+        "driveForce": 0,
+        "brakeForce": -15200,
+        "dragForce": -16,
+        "rollingResistanceForce": -213,
+        "netLongitudinalForce": -15430,
+        "isAccelerating": false,
+        "isBraking": true,
+        "isCoasting": false,
+        "isReversing": false,
+        "wheelRollAngle": 4.897
+      },
+      "steering": {
+        "steeringInput": 0,
+        "centralAngleDeg": 0,
+        "centralAngleRad": 0,
+        "angleFLDeg": 0,
+        "angleFLRad": 0,
+        "angleFRDeg": 0,
+        "angleFRRad": 0,
+        "maxSteerLimitDeg": 27.8,
+        "yawRateDeg": 0,
+        "yawRateRad": 0,
+        "lateralG": 0,
+        "lateralForceTotal": 0,
+        "isSteering": false
+      },
+      "wheels": {
+        "fl": {
+          "suspensionLength": 0.2271,
+          "compression": 0.0529,
+          "compressionRatio": 0.33,
+          "suspensionForce": 1384,
+          "isGrounded": true,
+          "rollAngle": 4.897,
+          "groundSpeed": 6.72,
+          "rpm": 178,
+          "suspensionOffsetMm": -40
+        },
+        "fr": {
+          "suspensionLength": 0.227,
+          "compression": 0.053,
+          "compressionRatio": 0.33,
+          "suspensionForce": 1388,
+          "isGrounded": true,
+          "rollAngle": 4.897,
+          "groundSpeed": 6.72,
+          "rpm": 178,
+          "suspensionOffsetMm": -40
+        },
+        "rl": {
+          "suspensionLength": 0.125,
+          "compression": 0.155,
+          "compressionRatio": 0.97,
+          "suspensionForce": 6063,
+          "isGrounded": true,
+          "rollAngle": 4.897,
+          "groundSpeed": 6.72,
+          "rpm": 178,
+          "suspensionOffsetMm": 40
+        },
+        "rr": {
+          "suspensionLength": 0.125,
+          "compression": 0.155,
+          "compressionRatio": 0.97,
+          "suspensionForce": 6063,
+          "isGrounded": true,
+          "rollAngle": 4.897,
+          "groundSpeed": 6.72,
+          "rpm": 178,
+          "suspensionOffsetMm": 40
+        }
+      },
+      "drivingWheelTransforms": {
+        "rollAngles": {
+          "wheel_fl": 5.492562795627355,
+          "wheel_fr": 5.4925509431374335,
+          "wheel_rl": 5.492562832059189,
+          "wheel_rr": 5.492550906705599
+        },
+        "steerAngles": {
+          "wheel_fl": 0,
+          "wheel_fr": 0,
+          "wheel_rl": 0,
+          "wheel_rr": 0
+        },
+        "suspensionOffsets": {
+          "wheel_fl": -0.04,
+          "wheel_fr": -0.04,
+          "wheel_rl": 0.04,
+          "wheel_rr": 0.04
+        },
+        "centralSteer": 0
+      }
+    },
+    "reverseSpin": {
+      "chassis": {
+        "position": [
+          -0.00002051373828237246,
+          0.0001817492345734778,
+          13.361870618248444
+        ],
+        "rotation": [
+          -0.0083,
+          0,
+          0
+        ],
+        "linearVelocity": [
+          6.20594055539451e-8,
+          0.00011737204276177829,
+          -2.543444511396723
+        ],
+        "angularVelocity": [
+          0.0009475827299138215,
+          1.5588313323945995e-7,
+          -7.603912404732674e-8
+        ],
+        "speedKmh": -9.1,
+        "mass": 1450,
+        "groundClearance": 0.0002
+      },
+      "drivetrain": {
+        "gear": "R",
+        "longitudinalSpeed": -2.515,
+        "speedKmh": -9.1,
+        "displaySpeed": 9,
+        "driveForce": -3004,
+        "brakeForce": 0,
+        "dragForce": 2,
+        "rollingResistanceForce": 213,
+        "netLongitudinalForce": -2788,
+        "isAccelerating": true,
+        "isBraking": false,
+        "isCoasting": false,
+        "isReversing": true,
+        "wheelRollAngle": -0.55
+      },
+      "steering": {
+        "steeringInput": 0,
+        "centralAngleDeg": 0,
+        "centralAngleRad": 0,
+        "angleFLDeg": 0,
+        "angleFLRad": 0,
+        "angleFRDeg": 0,
+        "angleFRRad": 0,
+        "maxSteerLimitDeg": 29.7,
+        "yawRateDeg": 0,
+        "yawRateRad": 0,
+        "lateralG": 0,
+        "lateralForceTotal": 0,
+        "isSteering": false
+      },
+      "wheels": {
+        "fl": {
+          "suspensionLength": 0.1899,
+          "compression": 0.0901,
+          "compressionRatio": 0.56,
+          "suspensionForce": 3162,
+          "isGrounded": true,
+          "rollAngle": -0.55,
+          "groundSpeed": -2.51,
+          "rpm": -67,
+          "suspensionOffsetMm": -23.3
+        },
+        "fr": {
+          "suspensionLength": 0.1899,
+          "compression": 0.0901,
+          "compressionRatio": 0.56,
+          "suspensionForce": 3162,
+          "isGrounded": true,
+          "rollAngle": -0.55,
+          "groundSpeed": -2.51,
+          "rpm": -67,
+          "suspensionOffsetMm": -23.3
+        },
+        "rl": {
+          "suspensionLength": 0.1666,
+          "compression": 0.1134,
+          "compressionRatio": 0.71,
+          "suspensionForce": 3962,
+          "isGrounded": true,
+          "rollAngle": -0.55,
+          "groundSpeed": -2.51,
+          "rpm": -67,
+          "suspensionOffsetMm": 23.2
+        },
+        "rr": {
+          "suspensionLength": 0.1666,
+          "compression": 0.1134,
+          "compressionRatio": 0.71,
+          "suspensionForce": 3961,
+          "isGrounded": true,
+          "rollAngle": -0.55,
+          "groundSpeed": -2.51,
+          "rpm": -67,
+          "suspensionOffsetMm": 23.2
+        }
+      },
+      "drivingWheelTransforms": {
+        "rollAngles": {
+          "wheel_fl": -1.2749356480416705,
+          "wheel_fr": -1.2749387823571714,
+          "wheel_rl": -1.274935638407497,
+          "wheel_rr": -1.2749387919913404
+        },
+        "steerAngles": {
+          "wheel_fl": 0,
+          "wheel_fr": 0,
+          "wheel_rl": 0,
+          "wheel_rr": 0
+        },
+        "suspensionOffsets": {
+          "wheel_fl": -0.023159888701105802,
+          "wheel_fr": -0.023158942808446825,
+          "wheel_rl": 0.023112430958901975,
+          "wheel_rr": 0.023099287386483425
+        },
+        "centralSteer": 0
+      }
+    },
+    "corneringAckermann": {
+      "chassis": {
+        "position": [
+          1.4353733091227143,
+          0.0018252983194484988,
+          14.481023671787852
+        ],
+        "rotation": [
+          0.0182,
+          0.5592,
+          -0.0095
+        ],
+        "linearVelocity": [
+          3.325347278149414,
+          -0.00003345330796661714,
+          3.316612666316901
+        ],
+        "angularVelocity": [
+          -0.00039153625487417217,
+          0.8892641385608342,
+          0.0001909897427417736
+        ],
+        "speedKmh": 16.2,
+        "mass": 1450,
+        "groundClearance": 0.0018
+      },
+      "drivetrain": {
+        "gear": "D",
+        "longitudinalSpeed": 4.501,
+        "speedKmh": 16.2,
+        "displaySpeed": 16,
+        "driveForce": 5752,
+        "brakeForce": 0,
+        "dragForce": -7,
+        "rollingResistanceForce": -213,
+        "netLongitudinalForce": 5532,
+        "isAccelerating": true,
+        "isBraking": false,
+        "isCoasting": false,
+        "isReversing": false,
+        "wheelRollAngle": 0.733
+      },
+      "steering": {
+        "steeringInput": -1,
+        "centralAngleDeg": 28.9,
+        "centralAngleRad": 0.5051,
+        "angleFLDeg": 34.4,
+        "angleFLRad": 0.6006,
+        "angleFRDeg": 24.9,
+        "angleFRRad": 0.4341,
+        "maxSteerLimitDeg": 28.9,
+        "yawRateDeg": 50.3,
+        "yawRateRad": 0.8787,
+        "lateralG": 0.46,
+        "lateralForceTotal": 6599,
+        "isSteering": true
+      },
+      "wheels": {
+        "fl": {
+          "suspensionLength": 0.1564,
+          "compression": 0.1236,
+          "compressionRatio": 0.77,
+          "suspensionForce": 4321,
+          "isGrounded": true,
+          "rollAngle": 0.733,
+          "groundSpeed": 3.01,
+          "rpm": 80,
+          "suspensionOffsetMm": 10.2
+        },
+        "fr": {
+          "suspensionLength": 0.156,
+          "compression": 0.124,
+          "compressionRatio": 0.77,
+          "suspensionForce": 4338,
+          "isGrounded": true,
+          "rollAngle": 3.857,
+          "groundSpeed": 4.86,
+          "rpm": 129,
+          "suspensionOffsetMm": 10.6
+        },
+        "rl": {
+          "suspensionLength": 0.1996,
+          "compression": 0.0804,
+          "compressionRatio": 0.5,
+          "suspensionForce": 2815,
+          "isGrounded": true,
+          "rollAngle": 1.689,
+          "groundSpeed": 3.64,
+          "rpm": 96,
+          "suspensionOffsetMm": -9.8
+        },
+        "rr": {
+          "suspensionLength": 0.1992,
+          "compression": 0.0808,
+          "compressionRatio": 0.5,
+          "suspensionForce": 2834,
+          "isGrounded": true,
+          "rollAngle": 4.654,
+          "groundSpeed": 5.36,
+          "rpm": 142,
+          "suspensionOffsetMm": -9.4
+        }
+      },
+      "drivingWheelTransforms": {
+        "rollAngles": {
+          "wheel_fl": 1.6188252696445284,
+          "wheel_fr": 5.28004137122297,
+          "wheel_rl": 2.759947750572435,
+          "wheel_rr": 6.223608721425418
+        },
+        "steerAngles": {
+          "wheel_fl": 0.5957173736055587,
+          "wheel_fr": 0.4314107969885375,
+          "wheel_rl": 0,
+          "wheel_rr": 0
+        },
+        "suspensionOffsets": {
+          "wheel_fl": 0.010179119800580227,
+          "wheel_fr": 0.010519240542253783,
+          "wheel_rl": -0.00972322648964391,
+          "wheel_rr": -0.009354683835582855
+        },
+        "centralSteer": 0.5015450219056679
+      }
+    },
+    "customWheelsDriving": {
+      "chassis": {
+        "position": [
+          7.451490870667732,
+          -0.0006147442384228397,
+          19.003243594936237
+        ],
+        "rotation": [
+          0.0116,
+          0.9245,
+          -0.0093
+        ],
+        "linearVelocity": [
+          5.60411946170701,
+          -0.00030804937291924775,
+          4.2275114893203325
+        ],
+        "angularVelocity": [
+          0.0015675930654658293,
+          -0.000010333659914830711,
+          -0.0012923572292843158
+        ],
+        "speedKmh": 25.2,
+        "mass": 1450,
+        "groundClearance": -0.0006
+      },
+      "drivetrain": {
+        "gear": "D",
+        "longitudinalSpeed": 6.999,
+        "speedKmh": 25.2,
+        "displaySpeed": 25,
+        "driveForce": 2822,
+        "brakeForce": 0,
+        "dragForce": -18,
+        "rollingResistanceForce": -213,
+        "netLongitudinalForce": 2591,
+        "isAccelerating": true,
+        "isBraking": false,
+        "isCoasting": false,
+        "isReversing": false,
+        "wheelRollAngle": 0.98
+      },
+      "steering": {
+        "steeringInput": 0,
+        "centralAngleDeg": 0,
+        "centralAngleRad": 0,
+        "angleFLDeg": 0,
+        "angleFLRad": 0,
+        "angleFRDeg": 0,
+        "angleFRRad": 0,
+        "maxSteerLimitDeg": 27.6,
+        "yawRateDeg": 0,
+        "yawRateRad": 0,
+        "lateralG": 0,
+        "lateralForceTotal": 0,
+        "isSteering": false
+      },
+      "wheels": {
+        "fl": {
+          "suspensionLength": 0.1683,
+          "compression": 0.1117,
+          "compressionRatio": 0.7,
+          "suspensionForce": 3817,
+          "isGrounded": true,
+          "rollAngle": 0.98,
+          "groundSpeed": 7,
+          "rpm": 185,
+          "suspensionOffsetMm": -1.7
+        },
+        "fr": {
+          "suspensionLength": 0.1684,
+          "compression": 0.1116,
+          "compressionRatio": 0.7,
+          "suspensionForce": 3893,
+          "isGrounded": true,
+          "rollAngle": 6.278,
+          "groundSpeed": 7,
+          "rpm": 185,
+          "suspensionOffsetMm": -1.8
+        },
+        "rl": {
+          "suspensionLength": 0.1879,
+          "compression": 0.0921,
+          "compressionRatio": 0.58,
+          "suspensionForce": 3245,
+          "isGrounded": true,
+          "rollAngle": 2.474,
+          "groundSpeed": 7,
+          "rpm": 185,
+          "suspensionOffsetMm": 1.9
+        },
+        "rr": {
+          "suspensionLength": 0.1879,
+          "compression": 0.0921,
+          "compressionRatio": 0.58,
+          "suspensionForce": 3322,
+          "isGrounded": true,
+          "rollAngle": 1.226,
+          "groundSpeed": 7,
+          "rpm": 185,
+          "suspensionOffsetMm": 1.9
+        }
+      },
+      "drivingWheelTransforms": {
+        "rollAngles": {
+          "wheel_fl": 1.629353537061646,
+          "wheel_fr": 0.6441293075891383,
+          "wheel_rl": 3.1240909301044826,
+          "wheel_rr": 1.8756134772031539
+        },
+        "steerAngles": {
+          "wheel_fl": 0,
+          "wheel_fr": 0,
+          "wheel_rl": 0,
+          "wheel_rr": 0
+        },
+        "suspensionOffsets": {
+          "wheel_fl": -0.0015513695759787338,
+          "wheel_fr": -0.0016290927257326948,
+          "wheel_rl": 0.0017903204150093166,
+          "wheel_rr": 0.0017242514617061278
+        },
+        "centralSteer": 0
+      }
+    }
+  }
+}

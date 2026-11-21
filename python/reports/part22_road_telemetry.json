@@ -1,0 +1,20 @@
+{
+  "roadWidth": 10,
+  "laneWidth": 4.6,
+  "shoulderWidth": 0.5,
+  "thickness": 0.08,
+  "elevation": 0.002,
+  "trackLength": 1204.72,
+  "spawnPosition": [
+    0,
+    0,
+    0
+  ],
+  "spawnHeading": [
+    0,
+    0,
+    1
+  ],
+  "samples": 600,
+  "capturedAt": "2026-11-21T02:28:07.483Z"
+}

@@ -1,0 +1,46 @@
+============================================================
+3D CAR MODEL — ASSET INSPECTION
+============================================================
+File:          assets/raw/CarConcept.glb
+File Size:     11,778,688 bytes (11.23 MB)
+GLB Integrity: PASS (v2)
+
+SCENE
+Scenes:        1 (Active Scene: 0)
+Nodes:         101 (Root Nodes: 1)
+Meshes:        97
+
+GEOMETRY
+Primitives:    109 (109 indexed, 0 non-indexed)
+Vertices:      162,766
+Triangles:     213,347
+Bounding Box:  X=[-1.30, 1.17], Y=[-2.40, 2.16], Z=[-0.49, 1.25]
+Dimensions:    W=2.47m, H=4.56m, L=1.74m
+
+MATERIALS
+Materials:     29
+Textures:      15
+Images:        14
+Clearcoat:     YES (KHR_materials_clearcoat detected)
+Transmission:  YES (KHR_materials_transmission detected)
+
+VEHICLE STRUCTURE
+Chassis:       38 node(s) identified
+Doors:         FL(15), FR(17), RR(6)
+Door pivots:   BodyDoorRColor1, BodyDoorRColor2, BodyDoorRHandle01, BodyDoorRHandle02, BodyDoorRMirror, BodyDoorRMirrorColor1, BodyDoorRMirrorColor2, BodyDoorRWindow, BodyDoorRWindowGasket, BodyDoorLColor1, BodyDoorLColor2, BodyDoorLHandle01, BodyDoorLHandle02, BodyDoorLMirror, BodyDoorLMirrorColor1, BodyDoorLWindowGasket, BodyDoorLWindow, BodyDoorLMirrorColor2
+Bonnet pivot:  BodyHood
+Boot pivot:    BodyRearPanelsColor1
+Wheel assemblies: 22 node(s), 16 pivot(s)
+Monolithic:    NO
+Suitability:   100%
+
+VALIDATION
+PASS:          10
+WARNING:       0
+ERROR:         0
+
+DIAGNOSTIC ISSUES:
+
+------------------------------------------------------------
+FINAL RESULT:  PASS
+============================================================

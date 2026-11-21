@@ -1,0 +1,15 @@
+{
+  "inputStore": {
+    "throttle": 0,
+    "brake": 0,
+    "steer": 0,
+    "handbrake": false,
+    "gear": "D",
+    "isAccelerating": false,
+    "isBraking": false,
+    "isReversing": false
+  },
+  "appMode": "driving",
+  "drivingView": "chase",
+  "capturedAt": "2026-11-21T02:20:46.113Z"
+}

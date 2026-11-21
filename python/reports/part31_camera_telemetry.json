@@ -1,0 +1,212 @@
+{
+  "timestamp": "2026-11-21T01:02:40.703Z",
+  "scenarios": {
+    "defaultChase": {
+      "appMode": "driving",
+      "drivingView": "chase",
+      "speedKmh": 0,
+      "speedLong": 0,
+      "gear": "D",
+      "steerDeg": 0,
+      "lateralG": 0,
+      "vehiclePos": [
+        9.549088264163275e-12,
+        0.0012388650486912477,
+        0.00009328665456802854
+      ],
+      "vehicleHeading": [
+        -0.00014133637622092495,
+        -8.773310504526845e-9,
+        -0.0000036399908623768127,
+        0.9999999900053896
+      ],
+      "surface": "asphalt",
+      "isOffRoad": false,
+      "hasCollided": false
+    },
+    "closeChase": {
+      "appMode": "driving",
+      "drivingView": "close",
+      "speedKmh": 0,
+      "speedLong": 0,
+      "gear": "D",
+      "steerDeg": 0,
+      "lateralG": 0,
+      "vehiclePos": [
+        9.549088264163275e-12,
+        0.0012388650486912477,
+        0.00009328665456802854
+      ],
+      "vehicleHeading": [
+        -0.00014133637622092495,
+        -8.773310504526845e-9,
+        -0.0000036399908623768127,
+        0.9999999900053896
+      ],
+      "surface": "asphalt",
+      "isOffRoad": false,
+      "hasCollided": false
+    },
+    "wideChase": {
+      "appMode": "driving",
+      "drivingView": "wide",
+      "speedKmh": 0,
+      "speedLong": 0,
+      "gear": "D",
+      "steerDeg": 0,
+      "lateralG": 0,
+      "vehiclePos": [
+        9.549088264163275e-12,
+        0.0012388650486912477,
+        0.00009328665456802854
+      ],
+      "vehicleHeading": [
+        -0.00014133637622092495,
+        -8.773310504526845e-9,
+        -0.0000036399908623768127,
+        0.9999999900053896
+      ],
+      "surface": "asphalt",
+      "isOffRoad": false,
+      "hasCollided": false
+    },
+    "bonnetHood": {
+      "appMode": "driving",
+      "drivingView": "hood",
+      "speedKmh": 0,
+      "speedLong": 0,
+      "gear": "D",
+      "steerDeg": 0,
+      "lateralG": 0,
+      "vehiclePos": [
+        9.549088264163275e-12,
+        0.0012388650486912477,
+        0.00009328665456802854
+      ],
+      "vehicleHeading": [
+        -0.00014133637622092495,
+        -8.773310504526845e-9,
+        -0.0000036399908623768127,
+        0.9999999900053896
+      ],
+      "surface": "asphalt",
+      "isOffRoad": false,
+      "hasCollided": false
+    },
+    "frontBumper": {
+      "appMode": "driving",
+      "drivingView": "bumper",
+      "speedKmh": 0,
+      "speedLong": 0,
+      "gear": "D",
+      "steerDeg": 0,
+      "lateralG": 0,
+      "vehiclePos": [
+        9.549088264163275e-12,
+        0.0012388650486912477,
+        0.00009328665456802854
+      ],
+      "vehicleHeading": [
+        -0.00014133637622092495,
+        -8.773310504526845e-9,
+        -0.0000036399908623768127,
+        0.9999999900053896
+      ],
+      "surface": "asphalt",
+      "isOffRoad": false,
+      "hasCollided": false
+    },
+    "roadCurve": {
+      "appMode": "driving",
+      "drivingView": "chase",
+      "speedKmh": 0,
+      "speedLong": 0,
+      "gear": "D",
+      "steerDeg": 0,
+      "lateralG": 0,
+      "vehiclePos": [
+        -3.7661578213265274,
+        0.0020433697308934445,
+        12.183579395137809
+      ],
+      "vehicleHeading": [
+        0.005454199770938497,
+        -0.8779457352453538,
+        0.010141258411609181,
+        0.4786216590869899
+      ],
+      "surface": "asphalt",
+      "isOffRoad": false,
+      "hasCollided": false
+    },
+    "highSpeedChase": {
+      "appMode": "driving",
+      "drivingView": "chase",
+      "speedKmh": 0,
+      "speedLong": 0,
+      "gear": "D",
+      "steerDeg": 0,
+      "lateralG": 0,
+      "vehiclePos": [
+        -3.7834679264108444,
+        0.0005189280338747207,
+        9.158647849822811
+      ],
+      "vehicleHeading": [
+        0.01198005927716287,
+        -0.5042864900617199,
+        0.006901721858978546,
+        0.8634257237054777
+      ],
+      "surface": "asphalt",
+      "isOffRoad": false,
+      "hasCollided": false
+    },
+    "vehicleRecovery": {
+      "appMode": "driving",
+      "drivingView": "chase",
+      "speedKmh": 0,
+      "speedLong": 0,
+      "gear": "D",
+      "steerDeg": 0,
+      "lateralG": 0,
+      "vehiclePos": [
+        0,
+        0.017,
+        0
+      ],
+      "vehicleHeading": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "surface": "asphalt",
+      "isOffRoad": false,
+      "hasCollided": false
+    },
+    "showroomMode": {
+      "appMode": "showroom",
+      "drivingView": "chase",
+      "speedKmh": 0,
+      "speedLong": 0,
+      "gear": "D",
+      "steerDeg": 0,
+      "lateralG": 0,
+      "vehiclePos": [
+        0,
+        0.017,
+        0
+      ],
+      "vehicleHeading": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "surface": "asphalt",
+      "isOffRoad": false,
+      "hasCollided": false
+    }
+  }
+}

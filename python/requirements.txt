@@ -1,0 +1,4 @@
+# 3D Car Model and Viewer — Python Asset Pipeline Dependencies
+# Python Environment: 3.12 (Homebrew)
+pygltflib==1.16.5
+pytest==9.2.0

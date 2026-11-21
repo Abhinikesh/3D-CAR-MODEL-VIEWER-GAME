@@ -1,0 +1,47 @@
+{
+  "testTimestamp": "2026-11-20T23:59:39.611Z",
+  "phases": {
+    "acceleration": {
+      "positionZ": 14.793217269254013,
+      "speedKmh": 45.5,
+      "displaySpeed": 45,
+      "driveForce": 8898,
+      "dragForce": -57,
+      "pitchAngleDeg": 1.4
+    },
+    "coasting": {
+      "positionZ": 34.45147837390116,
+      "speedKmh": 43.2,
+      "displaySpeed": 43,
+      "dragForce": -52,
+      "rollingResistanceForce": -213
+    },
+    "brakingToStop": {
+      "positionZ": 43.21104098647415,
+      "speedKmh": 0,
+      "displaySpeed": 0,
+      "isBraking": true,
+      "isSettled": false
+    },
+    "reverse": {
+      "positionZ": 39.19401949702907,
+      "speedKmh": -14.8,
+      "displaySpeed": 15,
+      "gear": "R",
+      "driveForce": -3318
+    },
+    "transition": {
+      "positionZ": 42.90302984840985,
+      "speedKmh": 29.7,
+      "displaySpeed": 30,
+      "gear": "D"
+    },
+    "disposalCheck": {
+      "isInitialized": false,
+      "isSimulating": false,
+      "appMode": "showroom",
+      "inputThrottle": 0,
+      "inputBrake": 0
+    }
+  }
+}

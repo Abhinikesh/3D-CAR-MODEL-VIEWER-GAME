@@ -1,0 +1,160 @@
+:root {
+  /* Dark Automotive Presentation Surfaces */
+  --bg-primary: #080A0E;
+  --bg-secondary: #0F141C;
+  --surface-card: #141A24;
+  --surface-card-subtle: #19212E;
+  --surface-hover: #202A3B;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-medium: rgba(255, 255, 255, 0.16);
+  --border-focus: #00F0FF;
+
+  /* Purposeful Light Surfaces (for Maximum Readability of Data & Controls) */
+  --surface-light: #F8FAFC;
+  --surface-light-card: #FFFFFF;
+  --surface-light-subtle: #F1F5F9;
+  --surface-light-hover: #E2E8F0;
+  --border-light-subtle: #CBD5E1;
+  --text-light-primary: #0F172A;
+  --text-light-secondary: #334155;
+  --text-light-muted: #64748B;
+
+  /* Frosted Glass Systems */
+  --glass-dark: rgba(12, 16, 24, 0.82);
+  --glass-dark-border: rgba(255, 255, 255, 0.10);
+  --glass-light: rgba(255, 255, 255, 0.88);
+  --glass-light-border: rgba(0, 0, 0, 0.08);
+
+  /* Typography Colors */
+  --text-primary: #FFFFFF;
+  --text-secondary: #CBD5E1;
+  --text-muted: #8492A6;
+
+  /* Automotive Accent Palette */
+  --accent-cyan: #00F0FF;
+  --accent-cyan-hover: #33F4FF;
+  --accent-teal: #00D2D3;
+  --accent-gold: #E5B56A;
+  --accent-crimson: #FF3B30;
+  --accent-violet: #BD00FF;
+  --accent-glow: rgba(0, 240, 255, 0.22);
+  --gold-glow: rgba(229, 181, 106, 0.25);
+
+  /* Status Indicators */
+  --status-ready: #10B981;
+  --status-pending: #F59E0B;
+  --status-info: #00F0FF;
+
+  /* Font Families */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Custom Slim Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 240, 255, 0.4);
+}
+
+/* Button & Interactive Resets */
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+input[type="range"] {
+  accent-color: var(--accent-cyan);
+}
+
+/* Micro-interaction animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulseSubtle {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-in {
+  animation: slideInRight 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
